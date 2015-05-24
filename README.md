@@ -1,6 +1,6 @@
-# Karat18
+# Karat18 Webpage
 
-Karat18 Project Repository
+Karat18 Webpage Project Repository
 
 ## Resume
 
