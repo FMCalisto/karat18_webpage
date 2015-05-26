@@ -59,9 +59,18 @@ a documentação própria para o mesmo se tal for necessário e adequado.
 
 #### Ideias
 
-### dia/mês/ano
 
-N.A.
+
+
+## Relatório
+
+### 25/05/15
+
+Foi feita uma análise aos Lyouts a usar e foi enviado um E-Mail ao Manel a perguntar quais os CMS que ele preferia.
+
+### 26/05/15
+
+Finalizada toda a estrutura básica da Wiki, adicionando ais alguma informção e adicionando mais algum conteudo ao projecto para uma melhor gestão de projecto.
 
 
 
