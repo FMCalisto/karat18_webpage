@@ -72,6 +72,10 @@ Foi feita uma análise aos Lyouts a usar e foi enviado um E-Mail ao Manel a perg
 
 Finalizada toda a estrutura básica da Wiki, adicionando ais alguma informção e adicionando mais algum conteudo ao projecto para uma melhor gestão de projecto.
 
+### 27/05/15
+
+Procura de alguns temas que irão ajudar na inpiração da webpage.
+
 
 
 
