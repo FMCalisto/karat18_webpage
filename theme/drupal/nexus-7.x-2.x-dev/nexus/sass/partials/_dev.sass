@@ -1,0 +1,21 @@
+body.grid
+  background: image-url("grid.png") 50% 0px repeat-y
+
+.button_grid
+  @extend .glyphicon 
+  @extend .glyphicon-eye-open
+  position: absolute
+  left: 0px
+  top: 100px
+  padding: 10px
+  background: #FFC501
+  border-top-right-radius: 5px
+  border-bottom-right-radius: 5px
+  border: 1px solid #FE4B02
+  border-left: 0px
+  box-shadow: 1px 1px 10px #777
+  &:hover
+    opacity: 0.9
+
+.grid .button_grid
+  @extend .glyphicon-eye-close
