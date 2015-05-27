@@ -1,0 +1,10 @@
+.mejs-container {
+	
+	button {
+		background: $color__text-headings;
+	}	
+}
+
+.mejs-controls .mejs-button button {
+	@include single-box-shadow($color__text-headings, 0, 0, 0);
+}

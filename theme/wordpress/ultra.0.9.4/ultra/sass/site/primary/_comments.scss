@@ -1,0 +1,314 @@
+.comments-area {
+	@include trailer;
+	outline: none;
+
+	.comments-title {
+		@include leading-border(1px, 1);
+		@include trailing-border(1px, 1);
+		border-color: $color__background-hr;
+	}
+
+	.comment-list {
+		list-style: none;
+		margin: rhythm(1.5) 0;
+	
+		.comment {
+			@include leader(1.5);
+			@include trailer(1.5);
+			margin-left: 4.5714em;			
+			
+			.comment-body {
+				@include border-radius(3px);
+				background: $color__background-lighter;
+				padding: rhythm(0.75);
+			}
+	
+			&:first-of-type {
+				margin-top: 0; 
+			}
+	
+			&:last-of-type { 
+				margin-bottom: 0; 
+			}	
+	
+			&:only-of-type {
+				@include leader(1.5);
+				@include trailer(1.5);
+			}
+		}
+
+		@include breakpoint($small) {
+			.comment {
+				margin-left: 0;
+			}
+			> .comment {
+				margin-left: 4.5714em;	
+			}
+		}		
+	
+		.pingback {
+			@include adjust-font-size-to(13px);
+			font-weight: 600;
+	
+			a {	
+				border-bottom: 1px dotted $color__link; 
+				font-weight: 400; 
+			
+				&:hover {
+					border-bottom: 1px solid $color__link; 
+				}
+			}
+
+			.edit-link {	
+				color: $color__text-main-minus-3;
+
+				&:before {
+					content: "\0007C";
+					font-family: $font__icon;
+					font-weight: normal;
+					margin-left: 0.25em;
+				}
+				
+				a {
+					border-bottom: none;
+					color: $color__text-main-minus-3;
+					margin-left: 0.25em;
+					
+					&:hover {
+						border-bottom: none;
+						color: $color__link; 
+					}					
+				}
+			}			
+		}	
+	}
+
+	.comment-awaiting-moderation {
+		font-weight: 600; 
+		margin-bottom: rhythm(0.5);
+		
+		&:before {
+			content: "\f071";
+			font-family: $font__icon;  
+			font-size: 0.8125em;
+			font-weight: normal;
+			margin-right: 0.4465em;  
+		}
+	}	
+
+	.comment-author {
+		float: left;
+		position: relative;
+		width: 50%;
+
+		.avatar {
+			border-radius: 6.8571em;
+			height: 3.4286em; 
+			left: -5.8571em; 
+			position: absolute;
+			top: -1.33929em;
+			width: 3.4286em; 
+		}
+
+		.fn {
+
+			a {
+				color: $color__text-headings;
+				
+				&:hover {
+					color: $color__link;
+				}
+			}
+		}
+
+		.says {	
+			display: none;
+		} 
+	}
+
+	.bypostauthor .fn:before {
+		content: "\f007";
+		font-family: $font__icon;  
+		font-size: 0.8125em;
+		margin-right: 0.3125em; 
+	}
+
+	.comment-metadata {
+		@include adjust-font-size-to(12px);
+		float: right;
+		text-align: right;
+		width: 50%;
+
+		a {
+			color: $color__text-main-minus-3;			
+			&:hover {
+				color: $color__link;
+			} 	
+			
+		}
+		.edit-link {
+
+			@include breakpoint($large) {
+				display: none; 
+			}
+
+			&:before {
+				color: $color__text-main-minus-3;
+				content: "\0020\007c\0020";
+			}
+		}
+	}
+
+	.comment-content {
+		@include clearfix-after;
+		padding-top: rhythm(0.5);
+
+		a {	
+			border-bottom: 1px dotted $color__link; 
+			word-wrap: break-word;
+		
+			&:hover {
+				border-bottom: 1px solid $color__link; 
+			}
+		}		
+
+		p { 
+			@include adjust-font-size-to(13px);
+		}
+
+		p:last-of-type {
+			margin-bottom: 0.8438em; 
+		}
+
+		blockquote {
+			background: $color__background-light;
+		}
+	}
+
+	.comment-list .children {
+		list-style: none;
+		margin: 0;
+
+		.comment:first-of-type {
+			@include leader(1.5);
+		}		
+	}	
+
+	.reply {
+		margin-top: rhythm(0.5);
+		
+		a.comment-reply-link, a.comment-reply-login  {
+			@include adjust-font-size-to(12px);
+			color: $color__text-main-minus-3;
+			
+			&:hover {
+				color: $color__link;
+			}
+		}		
+	}
+
+	.comment-respond {
+		@include leading-border(1px, 1);
+		@include leader(1);
+		border-color: $color__background-hr; 
+		
+		.comment-reply-title {
+			margin-bottom: rhythm(0.25);
+
+			small {
+				font-size: 100%;
+			}
+
+			#cancel-comment-reply-link {
+				line-height: 0;
+				font-size: 0.6087em; 
+				margin: 0 0 0 0.6522em; 
+				
+				&:before {
+					content: "\f00d";
+					font-family: $font__icon;
+					margin-right: 0.25em;  
+				}
+			}
+		}		
+
+		p:first-of-type  {
+			@include adjust-font-size-to(13px);
+			
+			a:hover {
+				color: $color__text-main;
+			}
+		}
+
+		p.logged-in-as {
+			margin-bottom: 0;
+		}
+
+		.comment-form-author, .comment-form-email, .comment-form-url {
+			@include box-sizing(border-box);
+  			float: left;
+ 			width: 32%;
+ 			
+ 			@include breakpoint($small) {
+ 				width: 100%;
+ 			}
+ 			
+ 			input {
+ 				width: 100%;
+ 			}
+		}	
+
+		.comment-form-email {
+			margin: 0 2%;
+			
+ 			@include breakpoint($small) {
+ 				margin: 2% 0;
+ 			}			
+		}	
+
+		.required {
+			// color: $highlight-complementary-color;
+		}	
+
+		p.comment-form-comment {
+			clear: both;
+			margin-bottom: 0;
+			padding: rhythm(0.75) 0 rhythm(0.5); 
+			
+			label {
+				display: none;
+			}
+
+			textarea {
+				width: 100%;
+			}
+		}
+
+		.form-allowed-tags {
+			@include adjust-font-size-to(11px);
+			color: $color__text-main-minus-3;
+		}
+
+		.form-submit {
+			margin-top: rhythm(0.5);
+		}	
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}				
+	}	
+
+	.no-comments {
+		font-weight: 600;
+		margin: rhythm(1) 0 0; 
+	}	
+
+	.commentform-error {
+		// background: $error-background-color;
+		// border: 0.0625rem solid $error-border-color;
+		// color: $error-text-color;
+		display: block;
+		margin: rhythm(1) 0;
+		padding: rhythm(0.75) rhythm(0.5);
+	}	
+}

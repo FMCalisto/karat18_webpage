@@ -1,0 +1,33 @@
+$base-font-size: 14px;
+$base-line-height: 25px;
+$rhythm-unit: "em";
+@include establish-baseline;
+
+body,
+button,
+input,
+select,
+textarea {
+	@include font-smoothing(subpixel-antialiased);
+	color: $color__text-main;
+	font-family: $font__main;
+	font-size: 14px;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.7857;
+}
+
+::selection {
+	background: $color__link;
+	color: $color__background-body; 
+}
+
+/*--------------------------------------------------------------
+2.1 - Headings
+--------------------------------------------------------------*/
+@import "headings";
+
+/*--------------------------------------------------------------
+2.2 - Copy
+--------------------------------------------------------------*/
+@import "copy";

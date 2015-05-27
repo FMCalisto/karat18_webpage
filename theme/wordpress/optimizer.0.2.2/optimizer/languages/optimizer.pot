@@ -1,0 +1,1952 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Optimizer\n"
+"POT-Creation-Date: 2015-04-28 17:43+0600\n"
+"PO-Revision-Date: 2015-04-28 17:46+0600\n"
+"Last-Translator: \n"
+"Language-Team: Layerthemes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp2\\htdocs\\optimizer\\wp-content\\themes"
+"\\optimizer\n"
+
+msgid "Page Not Found"
+msgstr ""
+
+msgid ""
+"Server cannot find the file you requested. The Page has either been moved or "
+"deleted, or you entered the wrong URL or document name. Look at the URL. If "
+"a word looks misspelled, then correct it and try it again. If that doesnt "
+"work You can try our search option to find what you are looking for."
+msgstr ""
+
+msgid "Posts by "
+msgstr ""
+
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+msgid "No Responses"
+msgstr ""
+
+msgid "One Response"
+msgstr ""
+
+msgid "% Responses"
+msgstr ""
+
+msgid "Trackbacks &amp; Pings"
+msgstr ""
+
+msgid "Comments are closed."
+msgstr ""
+
+msgid "Footer Widgets"
+msgstr ""
+
+#, php-format
+msgid "Theme by %s"
+msgstr ""
+
+msgid "Header Navigation"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Pages:"
+msgstr ""
+
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+msgid "Total posts found - "
+msgstr ""
+
+msgid "0 Comment"
+msgstr ""
+
+msgid "1 Comment"
+msgstr ""
+
+msgid "% Comments"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Section via hook"
+msgstr ""
+
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Basic"
+msgstr ""
+
+msgid "Site Layout"
+msgstr ""
+
+msgid "Full Width Layout"
+msgstr ""
+
+msgid "Boxed layout"
+msgstr ""
+
+msgid "Boxed Layout Settings"
+msgstr ""
+
+msgid "Site Content Width"
+msgstr ""
+
+msgid "Set the width of the content box's width. In %"
+msgstr ""
+
+msgid "Boxed Content Background Color "
+msgstr ""
+
+msgid "Drop Shadow"
+msgstr ""
+
+msgid "Divider Icon"
+msgstr ""
+
+msgid "Select Divider style for the Homepage Element Titles"
+msgstr ""
+
+msgid "Rhombus"
+msgstr ""
+
+msgid "Star"
+msgstr ""
+
+msgid "Cross"
+msgstr ""
+
+msgid "Bolt"
+msgstr ""
+
+msgid "Hide Divider"
+msgstr ""
+
+msgid "Header Settings"
+msgstr ""
+
+msgid "Logo/Header Image"
+msgstr ""
+
+msgid "Click the \"Upload\" button to upload your Image."
+msgstr ""
+
+msgid "Make Header Transparent on Frontpage"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Transparent Header Text Color "
+msgstr ""
+
+msgid "Header Menu Style"
+msgstr ""
+
+msgid "Change the way your header &amp; Menu look"
+msgstr ""
+
+msgid "Make Header Sticky"
+msgstr ""
+
+msgid "Make the Header always stay on top, Fixed"
+msgstr ""
+
+msgid "Footer Settings"
+msgstr ""
+
+msgid "Scroll To Top Button"
+msgstr ""
+
+msgid ""
+"Turn On/Off The button that appears on bottom right when you scroll down to "
+"pages."
+msgstr ""
+
+msgid "Footer Copyright Text"
+msgstr ""
+
+msgid "Center Copyright Text"
+msgstr ""
+
+msgid "Slider Options"
+msgstr ""
+
+msgid "Slider Type"
+msgstr ""
+
+msgid "Select Frontpage Slider Type"
+msgstr ""
+
+msgid "Static Slide"
+msgstr ""
+
+msgid "Disable Slider"
+msgstr ""
+
+msgid "4 More Slider types are available in PRO version"
+msgstr ""
+
+msgid "Static Slide Settings"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid ""
+"<p style=\"text-align: center;\"><img class=\"aligncenter size-full wp-"
+"image-10751\" src=\""
+msgstr ""
+
+msgid "CTA Button 1"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Button Link"
+msgstr ""
+
+msgid "Background Color"
+msgstr ""
+
+msgid "Text Color"
+msgstr ""
+
+msgid "Button Style"
+msgstr ""
+
+msgid "Flat"
+msgstr ""
+
+msgid "Flat (Big)"
+msgstr ""
+
+msgid "Hollow"
+msgstr ""
+
+msgid "Hollow (Big)"
+msgstr ""
+
+msgid "Rounded"
+msgstr ""
+
+msgid "Rounded (Big)"
+msgstr ""
+
+msgid "CTA Button 2"
+msgstr ""
+
+msgid "Content Box Width"
+msgstr ""
+
+msgid "Image Background"
+msgstr ""
+
+msgid "Choose a single image or multiple images(Slideshow)"
+msgstr ""
+
+msgid "Slide Background Image"
+msgstr ""
+
+msgid "Slide Background Slideshow Images"
+msgstr ""
+
+msgid "Add Slideshow Background to your Slider"
+msgstr ""
+
+msgid "Slide Video Background"
+msgstr ""
+
+msgid "Add Video Background to your Slider"
+msgstr ""
+
+msgid "Frontpage"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "About Pre Header"
+msgstr ""
+
+msgid "About Header"
+msgstr ""
+
+msgid "About Content"
+msgstr ""
+
+msgid "About Header Color "
+msgstr ""
+
+msgid "About Content Text Color "
+msgstr ""
+
+msgid "About Background Color "
+msgstr ""
+
+msgid "Blocks"
+msgstr ""
+
+msgid "Blocks General Settings"
+msgstr ""
+
+msgid "Blocks Background Color "
+msgstr ""
+
+msgid "Blocks Title Color "
+msgstr ""
+
+msgid "Blocks Text Color "
+msgstr ""
+
+msgid "Block Layout"
+msgstr ""
+
+msgid "Block 1"
+msgstr ""
+
+msgid "Block 1 Title"
+msgstr ""
+
+msgid "Block 1 Image"
+msgstr ""
+
+msgid "Block 1 Content"
+msgstr ""
+
+msgid "Block 2"
+msgstr ""
+
+msgid "Block 2 Title"
+msgstr ""
+
+msgid "Block 2 Image"
+msgstr ""
+
+msgid "Block 2 Content"
+msgstr ""
+
+msgid "Block 3"
+msgstr ""
+
+msgid "Block 3 Title"
+msgstr ""
+
+msgid "Block 3 Image"
+msgstr ""
+
+msgid "Block 3 Content"
+msgstr ""
+
+msgid "Block 4"
+msgstr ""
+
+msgid "Block 4 Title"
+msgstr ""
+
+msgid "Block 4 Image"
+msgstr ""
+
+msgid "Block 4 Content"
+msgstr ""
+
+msgid "Block 5"
+msgstr ""
+
+msgid "Block 5 Title"
+msgstr ""
+
+msgid "Block 5 Image"
+msgstr ""
+
+msgid "Block 5 Content"
+msgstr ""
+
+msgid "Block 6"
+msgstr ""
+
+msgid "Block 6 Title"
+msgstr ""
+
+msgid "Block 6 Image"
+msgstr ""
+
+msgid "Block 6 Content"
+msgstr ""
+
+msgid "Welcome Text"
+msgstr ""
+
+msgid "Welcome Section Background Color"
+msgstr ""
+
+msgid "Welcome Section Text Color "
+msgstr ""
+
+msgid "Welcome Section background Image"
+msgstr ""
+
+msgid "Posts"
+msgstr ""
+
+msgid "Frontpage Posts"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Our Work"
+msgstr ""
+
+msgid "Subtitle"
+msgstr ""
+
+msgid "Check Out Our Portfolio"
+msgstr ""
+
+msgid "Posts layout"
+msgstr ""
+
+msgid "More Post Layouts are available in the PRO version"
+msgstr ""
+
+msgid "Always Display Post Titles in Layout 1 Posts"
+msgstr ""
+
+msgid "Content Type"
+msgstr ""
+
+msgid "Number Of Posts"
+msgstr ""
+
+msgid "Display posts from these categories only"
+msgstr ""
+
+msgid "default: All categories"
+msgstr ""
+
+msgid "Post Navigation"
+msgstr ""
+
+msgid "Numbered (Ajax)"
+msgstr ""
+
+msgid "Numbered"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "FrontPage Posts Title & Subtitle Color"
+msgstr ""
+
+msgid "Frontpage Posts Section Background Color"
+msgstr ""
+
+msgid "FrontPage Posts Background Color"
+msgstr ""
+
+msgid "For Layout 2, 3, 4 & 5"
+msgstr ""
+
+msgid "Elements position"
+msgstr ""
+
+msgid "Frontpage Elements position"
+msgstr ""
+
+msgid "Drag and Drop each element to reorder their position."
+msgstr ""
+
+msgid "Call to Action"
+msgstr ""
+
+msgid "Testimonials"
+msgstr ""
+
+msgid "Location Map"
+msgstr ""
+
+msgid "NewsLetter"
+msgstr ""
+
+msgid "Frontpage Widgets"
+msgstr ""
+
+msgid "Other Pages"
+msgstr ""
+
+msgid "Single Post"
+msgstr ""
+
+msgid "Single Post Settings"
+msgstr ""
+
+msgid "Show Post Info"
+msgstr ""
+
+msgid "Date, Author Name & Categories"
+msgstr ""
+
+msgid "Show Next and Previous Posts"
+msgstr ""
+
+msgid "Show Comments"
+msgstr ""
+
+msgid "Single Page"
+msgstr ""
+
+msgid "Single Page Settings"
+msgstr ""
+
+msgid "Page Header Default Background Color"
+msgstr ""
+
+msgid "Page Header Default Text Color"
+msgstr ""
+
+msgid "Display Blog Posts from selected Categories"
+msgstr ""
+
+msgid ""
+"If you have setup a Blog page with \"Blog Page Template\", choose the "
+"categories to get the blog posts from"
+msgstr ""
+
+msgid "Blog Page Posts Count "
+msgstr ""
+
+msgid "Blog Page layout"
+msgstr ""
+
+msgid "Show Blog Page Thumbnails"
+msgstr ""
+
+msgid "Contact Page Settings"
+msgstr ""
+
+msgid "Setup Contact Page Email address"
+msgstr ""
+
+msgid "Custom Page Header"
+msgstr ""
+
+msgid "Set Custom Page header for each page"
+msgstr ""
+
+msgid "Color & Font"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Base Color"
+msgstr ""
+
+msgid "Text Color on Base Color"
+msgstr ""
+
+msgid "Site Content Font"
+msgstr ""
+
+msgid "Site content Text Color"
+msgstr ""
+
+msgid "Custom Font Upload"
+msgstr ""
+
+msgid "Upload Custom font and use it everywhere in the theme."
+msgstr ""
+
+msgid "Header & Menu"
+msgstr ""
+
+msgid "Header"
+msgstr ""
+
+msgid "Site Title Font"
+msgstr ""
+
+msgid "Specify the body font properties."
+msgstr ""
+
+msgid "Site Title Font Color"
+msgstr ""
+
+msgid "Header Background Color"
+msgstr ""
+
+msgid "Header background image"
+msgstr ""
+
+msgid "Set Background Image to your header"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Menu Text Color (Regular)"
+msgstr ""
+
+msgid "Menu Text Color (Hover)"
+msgstr ""
+
+msgid "Menu Font Size"
+msgstr ""
+
+msgid "Sidebar & Widget"
+msgstr ""
+
+msgid "Sidebar Widgets"
+msgstr ""
+
+msgid "Sidebar Widgets Background Color"
+msgstr ""
+
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+msgid "Sidebar Text Color"
+msgstr ""
+
+msgid "Footer Widgets Background Color"
+msgstr ""
+
+msgid "Footer Widget Text Color"
+msgstr ""
+
+msgid "Footer Widget Title Color"
+msgstr ""
+
+msgid "Post & Page"
+msgstr ""
+
+msgid "Post"
+msgstr ""
+
+msgid "Post Titles, headings and Menu Font"
+msgstr ""
+
+msgid "Post Title Color"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Turn Menu Text & All Headings to Uppercase "
+msgstr ""
+
+msgid "Copyright Area Background"
+msgstr ""
+
+msgid "Copyright Text Color"
+msgstr ""
+
+msgid "Social"
+msgstr ""
+
+msgid "Social Links"
+msgstr ""
+
+msgid "Social links Icons Style"
+msgstr ""
+
+msgid "Simple"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Facebook URL "
+msgstr ""
+
+msgid "Twitter URL "
+msgstr ""
+
+msgid "Google Plus URL "
+msgstr ""
+
+msgid "Youtube URL "
+msgstr ""
+
+msgid "Flickr URL "
+msgstr ""
+
+msgid "Linkedin URL "
+msgstr ""
+
+msgid "Pinterest URL "
+msgstr ""
+
+msgid "Tumblr URL "
+msgstr ""
+
+msgid "Instagram URL "
+msgstr ""
+
+msgid "RSS URL "
+msgstr ""
+
+msgid "Miscellaneous"
+msgstr ""
+
+msgid "Media Settings"
+msgstr ""
+
+msgid "Lightbox Feature"
+msgstr ""
+
+msgid "Enhanced Gallery"
+msgstr ""
+
+msgid ""
+"Turning on this option will change all your galleries to advanced slider "
+"galleries. The gallery images will be automatically linked to \"files\"."
+msgstr ""
+
+msgid "Other Settings"
+msgstr ""
+
+msgid "Post layout for Category & Archive Pages"
+msgstr ""
+
+msgid "Favicon"
+msgstr ""
+
+msgid "Add favicon to your site"
+msgstr ""
+
+msgid "Mobile Layout"
+msgstr ""
+
+msgid "Hide Items From the Mobile Version of Your Site"
+msgstr ""
+
+msgid "Hide Slider"
+msgstr ""
+
+msgid "Hide About Box"
+msgstr ""
+
+msgid "Hide Front Page Blocks"
+msgstr ""
+
+msgid "Hide Front Page Welcome Text"
+msgstr ""
+
+msgid "Hide Front Page Posts"
+msgstr ""
+
+msgid "Hide Right Sidebar"
+msgstr ""
+
+msgid "Custom Code"
+msgstr ""
+
+msgid "Custom CSS"
+msgstr ""
+
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+msgid "Import / Export"
+msgstr ""
+
+msgid "Import and Export your optimizer Theme settings from file, text or URL."
+msgstr ""
+
+msgid "Import Export"
+msgstr ""
+
+msgid "Save and restore your theme options"
+msgstr ""
+
+msgid "Upgrade to PRO"
+msgstr ""
+
+msgid "Optimizer Options"
+msgstr ""
+
+msgid "Like Us on Facebook"
+msgstr ""
+
+msgid "Follow Us on Twitter"
+msgstr ""
+
+msgid "Find Us on Google Plus"
+msgstr ""
+
+msgid "Find Us on Pinterest"
+msgstr ""
+
+msgid ""
+"<p><a class=\"doc_link\" href=\"https://www.layerthemes.com/optimizer-"
+"documentation/\" target=\"_blank\">Documentation</a><a class=\"pro_link\" "
+"href=\"https://www.layerthemes.com/theme/optimizer-upgrade/\" target=\"_blank"
+"\"><span>Upgrade To PRO</span> for 100+ Premium Features &amp; Lightning "
+"Fast Theme Support!</a></p><div style=\"clear:both\"></div>"
+msgstr ""
+
+msgid "Why PRO?"
+msgstr ""
+
+msgid "Demos"
+msgstr ""
+
+msgid "Free vs PRO"
+msgstr ""
+
+msgid "OPTMIZER PRO"
+msgstr ""
+
+msgid "UNLOCK THE TRUE POWER OF OPTIMIZER"
+msgstr ""
+
+msgid "Extremely Customizable | Easy To Use | Lifetime Support"
+msgstr ""
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "PRO Features"
+msgstr ""
+
+msgid "Upgrade to Unlock These Features"
+msgstr ""
+
+msgid "5 Sliders"
+msgstr ""
+
+msgid ""
+"With Optimizer you are not limited with only one slider. You have the option "
+"to choose from 5 sliders. Each of them comes with customizing options."
+msgstr ""
+
+msgid "10 Frontpage Elements"
+msgstr ""
+
+msgid ""
+"Optimizer comes with 10 frontpage elements that are extremely customize. You "
+"can display About section, Call to Action, Map, Testimonials, Newsletter and "
+"Many More."
+msgstr ""
+
+msgid "100% Responsive"
+msgstr ""
+
+msgid ""
+"Optimizer is 100% Responsive &amp; Retina Ready. Your site will be displayed "
+"beautifully and crisp on all devices."
+msgstr ""
+
+msgid "Unlimited Colors"
+msgstr ""
+
+msgid ""
+"With Optimizer you have the ability to change all the colors of all the "
+"elements of the theme with easy to use theme options panel."
+msgstr ""
+
+msgid "6 Menu Styles"
+msgstr ""
+
+msgid ""
+"Who wants to show just bland text as a menu? In Optimizer, you can display "
+"Icons as a menu, add a description or show Icon, description, Menu Item all "
+"altogether."
+msgstr ""
+
+msgid "5 Posts Layouts"
+msgstr ""
+
+msgid ""
+"The Theme lets you select 5 layouts for your frontpage posts and your "
+"category page posts. Each layouts with advance options."
+msgstr ""
+
+msgid "3 Blog Layouts"
+msgstr ""
+
+msgid ""
+"3  beautifully designed blog layouts to choose from; Change the way you "
+"display your blog posts.  Each layout added with options to select "
+"categories &amp; defining the number of posts."
+msgstr ""
+
+msgid "3 Gallery Types"
+msgstr ""
+
+msgid ""
+"3 magnificent designed gallery types with each added with lots of cool "
+"features."
+msgstr ""
+
+msgid "6 Page Templates"
+msgstr ""
+
+msgid ""
+"Why show the pages in boring 1 layout, use 6 beautiful pre-made page "
+"templates that comes with the theme. This also includes easy to setup "
+"Contact page template."
+msgstr ""
+
+msgid "30 Widgets"
+msgstr ""
+
+msgid ""
+"Amazing and useful widgets to make your life easier. E.g. Custom Ad, "
+"Countdown, social widgets, slider, video widgets, Advanced Text Widget, "
+"Login Widget and many more."
+msgstr ""
+
+msgid "40 Shortcodes"
+msgstr ""
+
+msgid ""
+"Long list of useful &amp; unique shortcodes guaranteed to make your content "
+"an eye candy. Shortcode for content, boxes, button, slider, image, video, "
+"pricing table.  Plus, we built a preview option to make your publishing "
+"easier."
+msgstr ""
+
+msgid "600+ Google Fonts"
+msgstr ""
+
+msgid ""
+"Select fonts from the wide range font collection of 667 beautiful Google "
+"fonts and assign it anywhere. Customize color,set style for each font and "
+"pair one font with another amazing font. "
+msgstr ""
+
+msgid "Translations"
+msgstr ""
+
+msgid ""
+"Optimizer is Translation ready and Translated in 10 languages. Its also made "
+"compatible with WPML, qTranslate, Polylang and other wordpress multilanguage "
+"Plugin."
+msgstr ""
+
+msgid "Sticky Header"
+msgstr ""
+
+msgid ""
+"Sticky menus are proved to be 22% quicker to navigate.Users do not have to "
+"scroll back to the top of the page anymore to find important menu items."
+msgstr ""
+
+msgid "Top bar"
+msgstr ""
+
+msgid ""
+"Slick semi-transparent bar at the top section for displaying a host of "
+"navigational items; Menu, Phone No, Social Links, Search Bar and many more."
+msgstr ""
+
+msgid "Advanced Header Options"
+msgstr ""
+
+msgid ""
+"Lots of features for customizing the header of your site. Make the header "
+"transparent,stick the header to top, upload your own logo and many more."
+msgstr ""
+
+msgid ""
+"In Optimizer you have the options to set custom image header on each page of "
+"your site or set colorful header."
+msgstr ""
+
+msgid "Custom Page Background"
+msgstr ""
+
+msgid ""
+"If you want your page or posts background to reflect the content of the post "
+"or page. Look no further, In Optimizer you can set unique background for "
+"each post or page."
+msgstr ""
+
+msgid ""
+"Upload and install any font using the theme’s font Uploader and use them for "
+"your site title, page and site content."
+msgstr ""
+
+msgid "Social Share"
+msgstr ""
+
+msgid ""
+"Include Floating share bar for every post and position them anywhere you "
+"like; besides the post, after post or before the start of the post. The "
+"Shared posts/pages are also beautifully displayed on social network sites "
+"too."
+msgstr ""
+
+msgid "Customizable Social Icons"
+msgstr ""
+
+msgid ""
+"Display your favorite social network pages in the footer, sidebar and "
+"customize how you want them to look."
+msgstr ""
+
+msgid "SEO Options"
+msgstr ""
+
+msgid ""
+"Without search engine traffic, it’s difficult for any business to succeed. "
+"To ensure this, we carefully crafted our code following the best SEO "
+"practices. Our code went through validation checks and we implemented lots "
+"of cool SEO features plus you can even put your Google Analytics tracking "
+"code from the Optimizer Options."
+msgstr ""
+
+msgid "Favicon Upload"
+msgstr ""
+
+msgid ""
+"You don’t want to show default WordPress favicon to your users; Upload your "
+"own logo as the favicon and keep your brand image consistent throughout the "
+"site."
+msgstr ""
+
+msgid "Unlimited Sidebars"
+msgstr ""
+
+msgid ""
+"Make an unlimited number of sidebars and use it as your content of the post "
+"or page demands. Be it for offer page, pricing page or any other you will "
+"have a sidebar lining up for every situation."
+msgstr ""
+
+msgid "Sidebar Per Page"
+msgstr ""
+
+msgid ""
+"Make the best use of sidebars, create unlimited sidebars and assign each of "
+"them to different posts or pages. Disable sidebar for any single post or "
+"page, if you don’t want to show any."
+msgstr ""
+
+msgid "5 Navigation Type"
+msgstr ""
+
+msgid ""
+"In Optimizer you have the option to set Navigate posts without refreshing "
+"the posts, Numbered navigation, infinite scroll and many more."
+msgstr ""
+
+msgid "About The Author"
+msgstr ""
+
+msgid ""
+"Give your posts a lift, add some personality. Display awesome author "
+"picture, description &amp; links below the posts the author wrote."
+msgstr ""
+
+msgid "Related Posts"
+msgstr ""
+
+msgid ""
+"In Optimizer, you can display lists of related posts after every post and "
+"you can finally keep the bounce rate in check."
+msgstr ""
+
+msgid "Amazing Customer Support"
+msgstr ""
+
+msgid ""
+"We take pride in our amazing customer support. We are heavily focused on the "
+"quality of our support. In our Premium support forum, we quickly resolve any "
+"users question."
+msgstr ""
+
+msgid "1 Click Demo Imports"
+msgstr ""
+
+msgid ""
+"We have been asked by lots of people about how to make their site exactly "
+"look like the demo. So we have built a demo site importer from Optimizer "
+"Options, one click and everything will be taken care of."
+msgstr ""
+
+msgid "Maintenance Mode"
+msgstr ""
+
+msgid ""
+"With Optimizer Pro you can easily activate Maintenance Mode, which lets you "
+"make chages to your site and let you display a nice message Saying your site "
+"is under construction at the same time"
+msgstr ""
+
+msgid "Advanced Woocommerce Options"
+msgstr ""
+
+msgid ""
+"Optimizer comes with Advanced Woocommerce Options that make the theme "
+"perfect for e-commerce sites. You can zoom product image on hover and "
+"display product slider on frontpage."
+msgstr ""
+
+msgid ""
+"With Optimizer PRO the outcome is unlimited. These Demos below are made with "
+"Optimizer PRO within hours and without touching any code of the theme. In "
+"PRO version you can import any of these demo with one click to make your "
+"site look exactly like the demo."
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "Optimizer Free"
+msgstr ""
+
+msgid "Optimizer PRO"
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+msgid "1"
+msgstr ""
+
+msgid "5"
+msgstr ""
+
+msgid "Front Page Elements"
+msgstr ""
+
+msgid "4"
+msgstr ""
+
+msgid "10"
+msgstr ""
+
+msgid "Posts Layouts"
+msgstr ""
+
+msgid "2"
+msgstr ""
+
+msgid "Blog Layouts"
+msgstr ""
+
+msgid "3"
+msgstr ""
+
+msgid "Gallery Types"
+msgstr ""
+
+msgid "Shortcodes"
+msgstr ""
+
+msgid "0"
+msgstr ""
+
+msgid "40"
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "30"
+msgstr ""
+
+msgid "Widget Areas"
+msgstr ""
+
+msgid "Menu Positions"
+msgstr ""
+
+msgid "Page Templates"
+msgstr ""
+
+msgid "6"
+msgstr ""
+
+msgid "Blocks Layout"
+msgstr ""
+
+msgid "Posts Navigation Type"
+msgstr ""
+
+msgid "Social Share buttons Styles"
+msgstr ""
+
+msgid "Header Customization"
+msgstr ""
+
+msgid "Topbar"
+msgstr ""
+
+msgid "Advanced Styling"
+msgstr ""
+
+msgid "Custom background per Page"
+msgstr ""
+
+msgid "Custom Header per Page"
+msgstr ""
+
+msgid "About The Author Module"
+msgstr ""
+
+msgid "Fully Responsive"
+msgstr ""
+
+msgid "Retina Ready"
+msgstr ""
+
+msgid "Woocommerce Support"
+msgstr ""
+
+msgid "Woocommerce Product Zoom"
+msgstr ""
+
+msgid "Woocommerce Product Slider"
+msgstr ""
+
+msgid "Optimized for Speed"
+msgstr ""
+
+msgid "Advanced Documentation"
+msgstr ""
+
+msgid "Priority support in Forum"
+msgstr ""
+
+msgid "Upgrade To PRO"
+msgstr ""
+
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+msgid "Previous Post"
+msgstr ""
+
+msgid "Next Post"
+msgstr ""
+
+msgid "These Options Are Only Available in Optimizer PRO"
+msgstr ""
+
+msgid "Right Sidebar"
+msgstr ""
+
+msgid "Widget Area for the Footer"
+msgstr ""
+
+msgid "+ Read More"
+msgstr ""
+
+msgid "Search &hellip;"
+msgstr ""
+
+#, php-format
+msgid "%s"
+msgstr ""
+
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#, php-format
+msgid "<cite class=\"citeping\">%s</cite> <span class=\"says\">:</span>"
+msgstr ""
+
+msgid "A little about..."
+msgstr ""
+
+msgid "THE OPTIMIZER"
+msgstr ""
+
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur dol adipiscing elit. Nam nec "
+"rhoncus risus. In ultrices lacinia ipsum, posuere faucibus velit bibe.</p>"
+msgstr ""
+
+msgid "Lorem Ipsum"
+msgstr ""
+
+msgid ""
+"<h2 style=\"text-align:center;\">Lorem ipsum dolor sit amet, consectetur dol "
+"adipiscing elit. Nam nec rhoncus risus. In ultrices lacinia ipsum, posuere "
+"faucibus velit bibe.</h2>"
+msgstr ""
+
+msgid "DEMO"
+msgstr ""
+
+msgid "DOWNLOAD"
+msgstr ""
+
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+msgid "Redux Framework"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+msgid "Please Wait"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "moving the mouse over"
+msgstr ""
+
+msgid "clicking"
+msgstr ""
+
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+msgid "Hints"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+msgid "Developer Mode Enabled"
+msgstr ""
+
+msgid "Expand"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Reset Section"
+msgstr ""
+
+msgid "Reset All"
+msgstr ""
+
+msgid "Working..."
+msgstr ""
+
+msgid "Settings Imported!"
+msgstr ""
+
+msgid "All Defaults Restored!"
+msgstr ""
+
+msgid "Section Defaults Restored!"
+msgstr ""
+
+msgid "Settings Saved!"
+msgstr ""
+
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+msgid "error(s) were found!"
+msgstr ""
+
+msgid "warning(s) were found!"
+msgstr ""
+
+msgid "System Info"
+msgstr ""
+
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+msgid "Unable to modify required files. Please ensure that"
+msgstr ""
+
+msgid ""
+"has the proper read/write permissions or enter your FTP information below."
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+#, php-format
+msgid ""
+"The theme you are testing has %s embedded. We invite you to read the %sTheme-"
+"Check Documentation%s to understand some warnings you will see because of "
+"Redux."
+msgstr ""
+
+msgid ""
+"The following directories & files are still located in your <strong>Redux</"
+"strong>  directory. They may cause errors in Theme-Check."
+msgstr ""
+
+msgid "Options Object"
+msgstr ""
+
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+msgid "Import / Export Options"
+msgstr ""
+
+msgid "Import Options"
+msgstr ""
+
+msgid "Import from file"
+msgstr ""
+
+msgid "Import from URL"
+msgstr ""
+
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+msgid "Export Options"
+msgstr ""
+
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Copy Link"
+msgstr ""
+
+msgid "What's New"
+msgstr ""
+
+msgid "Getting Started"
+msgstr ""
+
+msgid "Changelog"
+msgstr ""
+
+msgid "Credits"
+msgstr ""
+
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is ready to "
+"<add description>"
+msgstr ""
+
+msgid "Some Feature"
+msgstr ""
+
+msgid "Feature"
+msgstr ""
+
+msgid "Some feature"
+msgstr ""
+
+msgid "More Features"
+msgstr ""
+
+msgid "description"
+msgstr ""
+
+msgid "Additional Updates"
+msgstr ""
+
+msgid "Cool thing"
+msgstr ""
+
+msgid "cool thing description."
+msgstr ""
+
+msgid "Go to Redux Framework"
+msgstr ""
+
+msgid "View the Full Changelog"
+msgstr ""
+
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is ready to "
+"make your <description>"
+msgstr ""
+
+msgid "Full Changelog"
+msgstr ""
+
+msgid ""
+"Use the tips below to get started using Redux Framework. You'll be up and "
+"running in no time!"
+msgstr ""
+
+msgid "Creating Your First Panel"
+msgstr ""
+
+#, php-format
+msgid "<a href=\"%s\">%s &rarr; Add New</a>"
+msgstr ""
+
+#, php-format
+msgid ""
+"The %s menu is your access point for all aspects of your Easy Digital "
+"Downloads product creation and setup. To create your first product, simply "
+"click Add New and then fill out the product details."
+msgstr ""
+
+msgid "Product Price"
+msgstr ""
+
+msgid ""
+"Products can have simple prices or variable prices if you wish to have more "
+"than one price point for a product. For a single price, simply enter the "
+"price. For multiple price points, click <em>Enable variable pricing</em> and "
+"enter the options."
+msgstr ""
+
+msgid "Download Files"
+msgstr ""
+
+msgid ""
+"Uploading the downloadable files is simple. Click <em>Upload File</em> in "
+"the Download Files section and choose your download file. To add more than "
+"one file, simply click the <em>Add New</em> button."
+msgstr ""
+
+msgid "Display a Product Grid"
+msgstr ""
+
+msgid "Flexible Product Grids"
+msgstr ""
+
+msgid ""
+"The [downloads] shortcode will display a product grid that works with any "
+"theme, no matter the size. It is even responsive!"
+msgstr ""
+
+msgid "Change the Number of Columns"
+msgstr ""
+
+msgid ""
+"You can easily change the number of columns by adding the columns=\"x\" "
+"parameter:"
+msgstr ""
+
+msgid "Additional Display Options"
+msgstr ""
+
+#, php-format
+msgid ""
+"The product grids can be customized in any way you wish and there is <a href="
+"\"%s\">extensive documentation</a> to assist you."
+msgstr ""
+
+msgid "Purchase Buttons Anywhere"
+msgstr ""
+
+msgid "The <em>[purchase_link]</em> Shortcode"
+msgstr ""
+
+msgid ""
+"With easily accessible shortcodes to display purchase buttons, you can add a "
+"Buy Now or Add to Cart button for any product anywhere on your site in "
+"seconds."
+msgstr ""
+
+msgid "Buy Now Buttons"
+msgstr ""
+
+msgid ""
+"Purchase buttons can behave as either Add to Cart or Buy Now buttons. With "
+"Buy Now buttons customers are taken straight to PayPal, giving them the most "
+"frictionless purchasing experience possible."
+msgstr ""
+
+msgid "Need Help?"
+msgstr ""
+
+msgid "Phenomenal Support"
+msgstr ""
+
+msgid ""
+"We do our best to provide the best support we can. If you encounter a "
+"problem or have a question, post a question in the <a href=\"https://"
+"easydigitaldownloads.com/support\">support forums</a>."
+msgstr ""
+
+msgid "Need Even Faster Support?"
+msgstr ""
+
+msgid ""
+"Our <a href=\"https://easydigitaldownloads.com/support/pricing/\">Priority "
+"Support forums</a> are there for customers that need faster and/or more in-"
+"depth assistance."
+msgstr ""
+
+msgid "Stay Up to Date"
+msgstr ""
+
+msgid "Get Notified of Extension Releases"
+msgstr ""
+
+msgid ""
+"New extensions that make Easy Digital Downloads even more powerful are "
+"released nearly every single week. Subscribe to the newsletter to stay up to "
+"date with our latest releases. <a href=\"http://eepurl.com/kaerz\" target="
+"\"_blank\">Signup now</a> to ensure you do not miss a release!"
+msgstr ""
+
+msgid "Get Alerted About New Tutorials"
+msgstr ""
+
+msgid ""
+"<a href=\"http://eepurl.com/kaerz\" target=\"_blank\">Signup now</a> to hear "
+"about the latest tutorial releases that explain how to take Easy Digital "
+"Downloads further."
+msgstr ""
+
+msgid "Extensions for Everything"
+msgstr ""
+
+msgid "Over 250 Extensions"
+msgstr ""
+
+msgid ""
+"Add-on plugins are available that greatly extend the default functionality "
+"of Easy Digital Downloads. There are extensions for payment processors, such "
+"as Stripe and PayPal, extensions for newsletter integrations, and many, many "
+"more."
+msgstr ""
+
+msgid "Visit the Extension Store"
+msgstr ""
+
+msgid ""
+"<a href=\"https://asydigitaldownloads.com/extensions\" target=\"_blank\">The "
+"Extensions store</a> has a list of all available extensions, including "
+"convenient category filters so you can find exactly what you are looking for."
+msgstr ""
+
+msgid ""
+"Redux Framework is created by a worldwide team of developers who <something "
+"witty here>"
+msgstr ""
+
+msgid "No valid changlog was found."
+msgstr ""
+
+#, php-format
+msgid "View %s"
+msgstr ""
+
+msgid "Transparent"
+msgstr ""
+
+msgid "Background Repeat"
+msgstr ""
+
+msgid "Background Clip"
+msgstr ""
+
+msgid "Background Origin"
+msgstr ""
+
+msgid "Background Size"
+msgstr ""
+
+msgid "Background Attachment"
+msgstr ""
+
+msgid "Background Position"
+msgstr ""
+
+msgid "No media selected"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Border style"
+msgstr ""
+
+msgid "From "
+msgstr ""
+
+msgid "To "
+msgstr ""
+
+msgid "Width"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Units"
+msgstr ""
+
+msgid "Add/Edit Gallery"
+msgstr ""
+
+msgid "Clear Gallery"
+msgstr ""
+
+msgid "Regular"
+msgstr ""
+
+msgid "Hover"
+msgstr ""
+
+msgid "Visited"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add More"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Select an item"
+msgstr ""
+
+msgid "No items of this type were found."
+msgstr ""
+
+msgid "Slide"
+msgstr ""
+
+#, php-format
+msgid "New %s"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Font Family"
+msgstr ""
+
+msgid "Font family"
+msgstr ""
+
+msgid "Backup Font Family"
+msgstr ""
+
+msgid "Font style"
+msgstr ""
+
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Font subsets"
+msgstr ""
+
+msgid "Font Subsets"
+msgstr ""
+
+msgid "Subsets"
+msgstr ""
+
+msgid "Font script"
+msgstr ""
+
+msgid "Text Align"
+msgstr ""
+
+msgid "Text Transform"
+msgstr ""
+
+msgid "Font Variant"
+msgstr ""
+
+msgid "Text Decoration"
+msgstr ""
+
+msgid "Font Size"
+msgstr ""
+
+msgid "Line Height"
+msgstr ""
+
+msgid "Word Spacing"
+msgstr ""
+
+msgid "Letter Spacing"
+msgstr ""
+
+msgid "Font Color"
+msgstr ""
+
+msgid "Font color"
+msgstr ""
+
+msgid "Standard Fonts"
+msgstr ""
+
+msgid "Google Webfonts"
+msgstr ""
+
+msgid "This field must be a valid color value."
+msgstr ""
+
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+msgid "This field must be a valid date."
+msgstr ""
+
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+msgid "Read More"
+msgstr ""
+
+msgid "Preview"
+msgstr ""

@@ -1,0 +1,105 @@
+/*--------------------------------------------------------------
+14.1.1 - Page Wrapper
+--------------------------------------------------------------*/
+#page {
+	background: $color__background-body;
+}
+
+/*--------------------------------------------------------------
+14.1.2 - Full Width Inner Container
+--------------------------------------------------------------*/
+.container {
+	@include box-sizing(content-box); 
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	max-width: 85.7143rem;
+}
+
+.site-content > .container {
+	padding: 0 rhythm(1);
+}
+
+/*--------------------------------------------------------------
+14.1.3 - Content Wrapper
+--------------------------------------------------------------*/
+.site-content {
+	background: $color__background-body;
+	padding: rhythm(2) 0 rhythm(2);
+}
+
+/*--------------------------------------------------------------
+14.1.4 - Regular Containers
+--------------------------------------------------------------*/
+#primary {
+	@include box-sizing(border-box);
+	width: 100%;
+}
+
+.sidebar #primary {
+	border-color: $color__background-hr;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	float: left;
+	padding-right: 3.5%;
+	width: 75%;	 	
+	
+	@include breakpoint($medium) {
+		border: none;
+		padding-right: 0;
+		padding-left: 0; 
+		width: 100%; 	
+	} 	
+}
+
+#secondary {
+	@include box-sizing(border-box);
+	float: right;	
+	padding-left: 3.5%;
+	width: 25%;	
+	
+	@include breakpoint($medium) {
+		@include leader(2);
+		@include leading-border(1px, 2);
+		border-color: $color__background-hr;
+		padding-left: 0;		
+		width: 100%; 
+	} 
+}
+
+/*--------------------------------------------------------------
+14.1.5 - Full Width Page Templates
+--------------------------------------------------------------*/
+.page-template-home-panels #primary,
+.home.siteorigin-panels-home #primary,
+.page-template-full-width #primary,
+.page-template-full-width-no-title #primary {
+	border: none; 
+	float: none;
+	padding: 0;
+	width: 100%;  	
+}
+
+/*--------------------------------------------------------------
+14.1.6 - Templates With Full Width Page Titles
+--------------------------------------------------------------*/
+.single .site-content, 
+.page .site-content, 
+.blog .site-content,
+.archive .site-content, 
+.search-results .site-content, 
+.error404 .site-content,
+.search-no-results .site-content {
+	padding-top: 0;
+}
+
+/*--------------------------------------------------------------
+14.1.7 - Templates Without Full Width Page Titles
+--------------------------------------------------------------*/
+.home.siteorigin-panels-home .site-content,
+.page-template-home-panels .site-content,
+.page-template-full-width-no-title .site-content > .container,
+.page-template-default-no-title .site-content > .container,
+.blog .site-content .container.no-blog-title {
+	padding-top: rhythm(2);
+}

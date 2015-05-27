@@ -1,0 +1,152 @@
+.site-header {
+	@include box-shadow(rgba(0, 0, 0, 0.25) 0 0 6px 0);
+	@include clearfix;
+	background: $color__background-body;
+	height: 112px;
+	position: relative;
+	width: 100%;
+	z-index: 300;
+
+	.container {
+		padding: 0 rhythm(1);
+	}
+
+	.site-branding-container {
+		@include box-sizing(border-box);
+		@include display-flex;
+		float: left;
+		height: 112px;
+		max-width: 35%;
+		overflow: hidden;
+		padding-right: rhythm(1);
+	}
+
+	.site-branding {
+		margin: auto;
+		zoom: 1;
+
+		h1.site-title {
+			@include adjust-font-size-to(36px);
+			display: block;
+			font-family: $font__site-title;
+			font-weight: 300;
+			letter-spacing: -1px;
+			line-height: normal;
+			margin: 0;
+			zoom: 1;
+
+			@include breakpoint($extra-large) {
+				@include adjust-font-size-to(32px);
+				line-height: normal;
+			}
+
+			@include breakpoint($large) {
+				@include adjust-font-size-to(28px);
+				line-height: normal;
+			}
+
+			@include breakpoint($medium) {
+				@include adjust-font-size-to(25px);
+				line-height: normal;
+			}
+
+			a {
+				color: #333;
+				text-decoration: none;
+
+				&:hover {
+					border-bottom: none;
+				}
+			}
+		}
+
+		h2.site-description	{
+			@include adjust-font-size-to(14px);
+			font-weight: normal;
+			line-height: normal;
+			margin: 0;
+			
+			@include breakpoint($medium) {
+				@include adjust-font-size-to(13px);
+				line-height: normal;
+			}
+		}
+
+		img {
+			display: block;
+			max-height: 92px;
+			width: auto;
+			-webkit-transform: translate3d(0, 0, 0); /* Force hardware acceleration */
+		}
+	}
+
+	&.site-header-sentinel {
+		@include transition(opacity 0.3s);
+   		opacity: 0;
+    	position: fixed;
+    	top: -9999px;
+		width: 100%;
+        z-index: 5000;
+	}
+}
+
+/* If the tagline is present, apply a smaller max-height to the logo image */
+.tagline .site-header .site-branding img {
+	max-height: 72px;
+}
+
+/* If responsive menu is de-activated, center align the title below $medium and maintain the header width at $large */
+header:not(.responsive-menu) .site-branding-container {
+
+	@include breakpoint($large) {
+		max-width: 40%;
+	}
+
+	@include breakpoint($medium) {
+		float: none;
+		max-width: 100%;
+		text-align: center;
+	}
+}
+
+@include breakpoint($min-large) {
+
+	/* If the header is set to overlap the slider apply an opacity of 0.9 */
+	.overlap .site-header:not(.fixed) {
+		background: rgba(255, 255, 255, 0.9);
+	}
+
+	.site-header.site-header-sentinel.fixed {
+    	opacity: 1;
+    	top: 0;
+    }
+
+    .admin-bar .site-header.site-header-sentinel.fixed {
+    	top: 32px;
+    }
+
+	.site-header.scale.fixed,
+	.site-header.scale.fixed .site-branding-container {
+		height: 75px;
+	}
+
+	.site-header.scale.fixed .site-branding-container .site-branding img {
+		// max-height: 55px;
+		max-width: 75%
+	}
+
+	/* If the tagline is present, apply a smaller max-height to the sticky logo image */
+	.tagline .site-header.scale.fixed .site-branding-container .site-branding img {
+		max-width: 55%
+	}
+
+	.site-header.scale.fixed .site-branding h1.site-title {
+		@include adjust-font-size-to(28px);
+		line-height: normal;
+	}
+
+	.site-header.scale.fixed .site-branding h2.site-description {
+		@include adjust-font-size-to(13px);
+		line-height: normal;
+	}
+}

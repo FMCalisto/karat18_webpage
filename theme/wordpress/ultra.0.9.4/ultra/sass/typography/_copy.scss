@@ -1,0 +1,81 @@
+p {
+	@include word-break(normal);
+	margin: 0 0 rhythm(1) 0; 
+
+	&:last-child {
+		margin-bottom: 0; 
+	}
+	
+	&:only-child {
+		margin-bottom: rhythm(1); 
+	}
+}
+
+b, 
+strong {
+	font-weight: 700;
+}
+
+dfn, 
+cite, 
+em, 
+i {
+	font-style: italic;
+}
+
+blockquote {
+	@include adjust-font-size-to(15px);
+	background: $color__background-lighter;
+	border-left: 3px solid $color__link; 
+	margin: rhythm(1) 0;
+	padding: rhythm(1) rhythm(1);
+	
+	p, 
+	&:last-child, 
+	&:only-child {
+		margin-bottom: 0 !important;
+	}
+}
+
+address {
+	margin: 0 0 rhythm(1);	
+}
+
+pre {
+	@include adjust-font-size-to(14px);
+	@include force-wrap;
+	background: $color__background-lighter;
+	font-family: $font__pre;
+	margin: 0 0 rhythm(0.75);	
+	max-width: 100%;
+	overflow: auto;
+	padding: rhythm(0.5) rhythm(1);
+}
+
+code, 
+kbd, 
+tt, 
+var {
+	@include hyphens(none);
+	font-family: $font__code;
+}
+
+abbr, 
+acronym {
+	border-bottom: 1px dotted $color__border-abbr;
+	cursor: help;
+}
+
+mark, 
+ins {
+	background: $color__background-ins;
+	text-decoration: none;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}

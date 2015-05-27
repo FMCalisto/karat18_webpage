@@ -1,0 +1,54 @@
+.site-footer .bottom-bar {
+	background: $color__background-dark;
+	color: $color__text-main-minus-3;
+	padding: rhythm(0.5) 5%;
+	
+	@include breakpoint($small) {
+		padding-bottom: 0;
+	}
+	
+	a {
+		color: $color__text-main-minus-3;
+		text-decoration: none;
+		&:hover {
+			color: $color__background-body;
+		}
+	}	
+
+	.site-info {
+		@include adjust-font-size-to(12px);
+		display: inline-block;
+		line-height: normal;
+		text-align: left;
+		vertical-align: middle;
+		width: 30%;
+		
+		@include breakpoint($small) {
+			float: none;
+			padding-bottom: rhythm(0.5);
+			text-align: center;
+			width: 100%;
+		}
+
+		a[rel~="designer"] {
+			font-weight: 700;
+		}
+	}
+
+	.social-links-menu {
+		text-align: right;	
+		width: 70%;
+		
+		@include breakpoint($small) {
+			float: none;
+			padding-bottom: rhythm(0.5);
+			width: 100%;
+			text-align: center;
+		} 							
+	}	
+
+	.container div:only-of-type {
+		text-align: center;
+		width: 100%;			
+	}
+}

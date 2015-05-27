@@ -1,0 +1,14 @@
+// Susy Grid
+$susy: (
+  columns: 12,  
+  gutters: .5, 
+);
+
+// Breakpoints
+$small: max-width 480px;
+$medium: max-width 768px;
+$large: max-width 1024px;
+$min-large: min-width 1024px;
+$extra-large: max-width 1224px;
+$hidpi: min-resolution 1.5dppx;
+$wp-admin-bar-none-sticky: max-width 600px;

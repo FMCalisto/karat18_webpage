@@ -1,0 +1,710 @@
+/*--------------------------------------------------------------
+5.2.1 - Top Bar Menu
+--------------------------------------------------------------*/
+.top-bar-navigation {
+	@include box-sizing(border-box);
+	display: block;
+	float: right;
+	position: relative;
+	text-align: right;
+	width: 50%;	
+
+	@include breakpoint($medium) {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}	
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			color: $color__text-main-minus-3;
+			display: inline-block;
+			margin-right: rhythm(0.75);
+			position: relative;
+			
+			a {
+				@include adjust-font-size-to(12px);
+				@include nowrap;
+				color: $color__text-main-minus-3;
+				display: block;
+				text-decoration: none;
+			}	
+
+			&:hover > a {
+				color: $color__text-main-minus-5;
+			}		
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}	
+
+		ul {
+			@include box-shadow(rgba(0, 0, 0, 0.1) 0 0.5714rem 1.0714rem); 
+			background: $color__background-body;
+			border-top: 3px solid $color__link;
+			display: none;
+			left: 0;
+			padding: 0;
+			position: absolute;
+			text-align: left;
+			top: 35px;
+			z-index: 400;  		
+					
+			li {
+				min-width: 10em;
+				padding: 0;
+				width: 100%; 		
+						
+				a {
+					color: $color__text-main;
+					padding: 0.4em 0.8em;
+				}
+
+				&:hover > a {
+					background: $color__link;
+					color: $color__background-body; 
+				}													
+			}
+
+			ul {
+				left: 100%;
+				top: -3px;
+			}			
+		}						
+	
+		.menu-item-has-children,
+		.page_item_has_children {
+			
+			a:after {
+				content: "\f107";
+				font-family: $font__icon;
+				line-height: normal;
+				position: relative;
+				padding: 0 0 0 0.5785em;
+				top: 0.2435em;
+			}
+		}
+
+		.sub-menu,
+		.children {
+		
+			.menu-item-has-children,
+			.page_item_has_children {
+				
+				> a:after {
+					content: "\f105";
+					font-family: $font__icon;
+					position: absolute;
+					right: 1em;
+					top: 0.9167em;			
+				}				 
+			}
+
+			a:after {
+				content: none; 
+			}	
+		}
+	}	
+
+	div > ul > li {
+
+		> a {
+			display: block;
+			height: 38px;
+			line-height: 38px;
+			
+			&:hover {
+				border-bottom: 3px solid $color__link;
+			}
+		}
+
+		&.menu-item-has-children > a:hover,
+		&.page_item_has_children > a:hover {
+			border-bottom: none;
+			
+			@include breakpoint($extra-large) {
+				border-bottom: 3px solid $color__link;	
+			}
+		}
+	}
+}
+
+/* If a class of left is added to a menu item, break drop down menu items to the left */
+.top-bar-navigation ul li.left ul {
+	left: initial;
+	right: 0;
+	text-align: right;
+	
+		ul {
+			right: 100%;
+		}		
+}
+
+/*--------------------------------------------------------------
+5.2.2 - Main Menu
+--------------------------------------------------------------*/
+.main-navigation {
+	@include box-sizing(border-box);
+	float: right;
+	max-width: 65%;	
+
+	> div {
+		float: left;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin-right: rhythm(1);
+			position: relative;
+			vertical-align: middle;		
+			
+			a {
+				@include adjust-font-size-to(14px);
+				@include nowrap;
+				color: $color__text-headings;
+				display: block;
+				text-decoration: none;
+			}	
+
+			&:hover > a {
+				color: $color__link;
+			}		
+
+			&:last-of-type {
+				margin-right: 0;
+			}	
+		}		
+
+		ul {
+			@include box-shadow(rgba(0, 0, 0, 0.1) 0 8px 15px); 
+			background: $color__background-body;
+			border-top: 3px solid $color__link;
+			display: none;
+			left: 0;
+			padding: 0;
+			position: absolute;
+			text-align: left;
+			top: 109px;
+			z-index: 2;  	
+					
+			li {
+				min-width: 12em;
+				padding: 0;
+				width: 100%; 		
+						
+				a {
+					color: $color__text-main;
+					padding: 0.4em 0.8em;
+				}
+
+				&:hover > a {
+					background: $color__link;
+					color: $color__background-body; 
+				}		
+			}
+
+			.current_page_item > a,
+			.current-menu-item > a,
+			.current_page_ancestor > a {
+				color: $color__link;
+			}
+
+			ul {
+				left: 100%;
+				top: -3px;
+			}								
+		}
+
+		.menu-item-has-children,
+		.page_item_has_children {
+			
+			a:after {
+				content: "\f107";
+				font-family: $font__icon;
+				font-size: 0.8571em;
+				position: relative;
+				padding: 0 0 0 0.4952em;
+				top: 0.2435em;
+			}
+		}
+
+		.sub-menu,
+		.children {
+		
+			.menu-item-has-children,
+			.page_item_has_children {
+				
+				> a:after {
+					content: "\f105";
+					font-family: $font__icon;
+					position: absolute;
+					right: 1em;
+					top: 0.5em;			
+				}				 
+			}
+
+			a:after {
+				content: none; 
+			}	
+		}
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a {
+		color: $color__link;
+	}
+
+	div > ul > li {
+
+		> ul {
+			@include adjust-font-size-to(13px);	
+		}
+
+		> a {
+			display: block;
+			height: 112px;
+			line-height: 112px;
+
+			&:hover {
+				border-bottom: 3px solid $color__link;
+			}
+		}
+
+		&.menu-item-has-children > a:hover,
+		&.page_item_has_children > a:hover {
+			border-bottom: none;
+		}
+	}	
+}
+
+/* If a class of left is added to a menu item, break drop down menu items to the left */
+.main-navigation ul li.left ul {
+	left: initial;
+	right: 0;
+	text-align: right;
+	
+		ul {
+			right: 100%;
+		}		
+}
+
+/* If responsive menu is de-activated, center align the menu below $medium and maintain the menu width at $large */
+header:not(.responsive-menu) .main-navigation {
+
+	@include breakpoint($large) {
+		max-width: 60%;
+	}
+
+	@include breakpoint($medium) {
+		float: none;
+		max-width: 100%;
+		
+		ul {
+			text-align: center;
+		}
+
+		> div {
+			float: none;
+		}
+
+		.menu-search {
+			display: none;
+		}
+	}
+}
+
+/* Scale the menu height if header scale is enabled */
+@include breakpoint($min-large) {
+
+	.scale.fixed {
+
+		.main-navigation {
+			
+			ul ul {
+				top: 72px;
+			}
+
+			ul ul ul {
+				top: -3px;
+			}
+
+			div > ul > li > a {
+				height: 75px;
+				line-height: 75px;	
+			}
+		}
+	}
+}
+
+.main-navigation .menu-search {
+	height: 112px;
+	position: relative;
+	
+	.search-icon {
+		float: left;
+		padding-left: 2.92865rem;
+		cursor: pointer;
+		position: relative;		
+
+		&:before {
+			@include transition(0.3s);
+			color: $color__text-headings;
+			content: '\f002';
+			font-family: $font__icon;
+			height: 112px;
+			line-height: 112px;
+			position: absolute;
+			right: 0;
+			top: 50%;				
+		}
+
+		&:hover:before {
+			color: $color__link;
+			cursor: pointer;
+		}		
+	}
+
+	.searchform {
+		background: $color__background-body;
+		display: none;
+		margin-top: -3px;
+		position: absolute;
+		right: 0;
+		top: 100%;
+		width: 17.8571rem;
+		
+		input[name=s] {
+			@include border-radius(0);
+			@include box-shadow(rgba(0, 0, 0, 0.1) 0 8px 15px); 
+			background-color: transparent;
+			border: none;
+			border-top: 3px solid $color__link;
+			color: $color__text-headings;
+			width: 100%;
+		}
+	}		
+}
+
+
+/* Scale the search icon height if header scale is enabled */
+@include breakpoint($min-large) {
+
+	.scale.fixed {
+
+		.main-navigation .menu-search {
+			height: 75px;
+			
+			.search-icon:before {
+				height: 75px;
+				line-height: 75px;				
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+5.2.3 - Comment, Post and Page Navigation
+--------------------------------------------------------------*/
+.site-main .comment-navigation,
+.site-main .post-navigation {
+	@include leader;
+	@include leading-border(1px, 1);
+	@include trailer;
+	border-color: $color__background-hr; 
+	overflow: hidden;
+}
+
+.site-main .comment-navigation:nth-of-type(2) {
+	@include leader(1);
+	@include trailing-border(1px, 1);
+	@include trailer(1);
+	float: left;
+	width: 100%;
+}
+
+.comment-navigation .nav-links,
+.paging-navigation .nav-links,
+.post-navigation .nav-links {
+	text-align: center;	
+	
+	a {
+		color: $color__text-main-minus-3;	
+		
+		&:hover {
+			color: $color__link;	
+		}
+	}
+}
+
+.comment-navigation .nav-previous,
+.paging-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	position: relative;
+	
+	@include breakpoint($medium) {
+		@include trailer;
+		float: none;
+		width: 100%; 
+	} 		
+}
+
+.comment-navigation .nav-next,
+.paging-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	position: relative;
+	
+	@include breakpoint($medium) {
+		float: none;
+		width: 100%; 
+	} 	
+}
+
+.comment-navigation, 
+.post-navigation {
+
+	.nav-previous a:before, 
+	.nav-next a:after {
+		font-family: $font__icon; 
+		font-size: 0.8125em; 
+	}
+	
+	.nav-previous a:before {
+		content: "\f104";
+		padding-right: 0.5em; 
+	}
+	
+	.nav-next a:after {
+		content: "\f105";	
+		padding-left: 0.5em; 
+	}
+}
+
+.pagination {
+	@include leader(2.5);	
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	text-align: center;
+	
+	.page-numbers {
+		@include border-radius(3px);
+		@include transition(0.3s);
+		background: $color__background-light;
+		color: $color__text-main; 
+		display: inline-block;
+		font-weight: 400;
+		line-height: normal;
+		margin-right: 0.1285em;
+		outline-style: none; 
+		padding: 0.7142em 1.1428em;
+		
+		@include breakpoint($large) {
+			display: none;		
+		} 		
+		
+		&:hover {
+			background: $color__link;
+			color: $color__background-body;
+		}
+	}
+
+	.dots {
+		background: none;
+		padding-right: 0;
+		padding-left: 0; 
+		
+		&:hover {
+			background: none;
+			color: $color__text-main;
+		}
+	}
+
+	.current {
+		background: $color__link;
+		color: $color__background-body;
+	}
+
+	.prev, 
+	.next { 
+		display: block;
+		float: left;
+		margin-right: 0;
+	}	
+
+	.next {
+		float: right;
+	}
+}
+
+.meta-nav { 
+	font-size: 0.8125em; 
+}
+
+.nav-previous .meta-nav {
+	margin-right: 0.1875em; 
+}
+
+.nav-next .meta-nav {
+	margin-left: 0.1875em; 
+}
+
+/*--------------------------------------------------------------
+5.2.4 - Social Menus
+--------------------------------------------------------------*/
+.social-links-menu {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+	
+	ul {
+		list-style: none;
+		position: relative;
+		margin: 0;	
+		
+		li {
+			display: inline-block;
+			color: transparent; 
+			font-size: 0;
+			line-height: normal; 
+			padding: 0 0.3125rem;
+			
+			a {
+				text-align: center;
+			}
+
+			&:last-of-type {
+				padding-right: 0; 
+			}
+
+			a:before {
+				@include transition(0.3s);
+				display: inline-block;
+				color: $color__text-main-minus-3; 
+				content: "\f08e";
+				font-family: $font__icon; 
+				font-size: 1.0714rem;
+			}	
+
+			a:hover:before {
+				color: $color__text-main-minus-5;
+			}	
+
+			a[href*="behance.net"]:before {
+				content: "\f1b4";
+			}	
+
+			a[href*="codepen.io"]:before {
+				content: "\f1cb";
+			}
+
+			a[href*="delicious.com"]:before {
+				content: "\f1a5";
+			}	
+
+			a[href*="deviantart.com"]:before {
+				content: "\f1bd";
+			}	
+
+			a[href*="digg.com"]:before {
+				content: "\f1a6";
+			}	
+
+			a[href*="dribbble.com"]:before {
+				content: "\f17d";
+			}	
+
+			a[href*="facebook.com"]:before {
+				content: "\f09a";
+			}	
+
+			a[href*="flickr.com"]:before {
+				content: "\f16e";
+			}	
+
+			a[href*="foursquare.com"]:before {
+				content: "\f180";
+			}
+
+			a[href*="github.com"]:before {
+				content: "\f09b";
+			}
+
+			a[href*="plus.google.com"]:before {
+				content: "\f0d5";
+			}
+
+			a[href*="instagram.com"]:before {
+				content: "\f16d";
+			}	
+
+			a[href*="linkedin.com"]:before {
+				content: "\f0e1";
+			}	
+
+			a[href*="pinterest.com"]:before {
+				content: "\f0d2";
+			}		
+
+			a[href*="reddit.com"]:before {
+				content: "\f1a1";
+			}	
+
+			a[href*="soundcloud.com"]:before {
+				content: "\f1be";
+			}	
+
+			a[href*="stackexchange.com"]:before {
+				content: "\f18d";
+			}	
+
+			a[href*="stackoverflow.com"]:before {
+				content: "\f16c";
+			}	
+
+			a[href*="tumblr.com"]:before {
+				content: "\f173";
+			}	
+
+			a[href*="twitter.com"]:before {
+				content: "\f099";
+			}		
+
+			a[href*="vimeo.com"]:before {
+				content: "\f194";
+			}		
+
+			a[href*="vine.co"]:before {
+				content: "\f1ca";
+			}	
+
+			a[href*="vk.com"]:before {
+				content: "\f189";
+			}
+
+			a[href*="weibo.com"]:before {
+				content: "\f18a";
+			}	
+
+			a[href*="wordpress.com"]:before {
+				content: "\f19a";
+			}	
+
+			a[href*="youtube.com"]:before {
+				content: "\f167";
+			}																			
+		}
+	}
+}

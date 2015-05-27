@@ -1,0 +1,34 @@
+#scroll-to-top {
+  @include border-radius(3px);
+  @include transform(scale(0, 0));
+  @include transition(0.2s);
+  background: rgba(0, 0, 0, 0.2);
+  bottom: rhythm(1);
+  opacity: 0;
+  outline-style: none;
+  position: fixed;
+  padding: 13px 18px 13px;
+  right: rhythm(1);
+  text-decoration: none;
+  
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+#scroll-to-top .up-arrow {
+  display: block;
+  color: rgba(255, 255, 255, 1);
+  line-height: normal;
+  
+  &:before {
+    content: "\f106";
+    font-family: $font__icon;
+    font-size: 1.424em;
+  }
+}
+
+#scroll-to-top.displayed {
+  @include transform(scale(1, 1));
+  opacity: 1 !important;
+}

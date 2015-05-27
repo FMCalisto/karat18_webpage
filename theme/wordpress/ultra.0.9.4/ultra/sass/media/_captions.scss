@@ -1,0 +1,22 @@
+figure.wp-caption {
+	@include border-radius(3px);
+	background: $color__background-lighter;
+	padding: rhythm(0.5);
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	@include center-block;
+}
+
+.wp-caption-text {
+	@include adjust-font-size-to(12px);
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+	padding: rhythm(0.5) 0 0;
+}

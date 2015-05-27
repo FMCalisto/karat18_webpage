@@ -1,0 +1,763 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma\n"
+"POT-Creation-Date: 2015-01-15 19:34+0530\n"
+"PO-Revision-Date: 2015-01-15 19:35+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ./../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ./..\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: ../comment-function.php:9
+msgid "Reply"
+msgstr ""
+
+#: ../comment-function.php:24
+msgid "at"
+msgstr ""
+
+#: ../comment-function.php:32
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../flickr-widget.php:8
+msgid "Displays your latest Flickr photos."
+msgstr ""
+
+#: ../flickr-widget.php:61
+msgid "Title"
+msgstr ""
+
+#: ../flickr-widget.php:67
+msgid ""
+"Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</"
+"a>):"
+msgstr ""
+
+#: ../flickr-widget.php:73
+msgid "Number of images to display:"
+msgstr ""
+
+#: ../menu/default_menu_walker.php:23
+msgid "Home"
+msgstr ""
+
+#: ../theme-options/option-panel.php:41
+msgid "View Enigma Pro Demo"
+msgstr ""
+
+#: ../theme-options/option-panel.php:42
+msgid "Upgrade to Enigma Pro"
+msgstr ""
+
+#: ../theme-options/option-panel.php:47
+msgid "Responsive Design"
+msgstr ""
+
+#: ../theme-options/option-panel.php:48
+msgid "More than 13 Templates"
+msgstr ""
+
+#: ../theme-options/option-panel.php:49
+msgid "8 Different Types of Blog Templates"
+msgstr ""
+
+#: ../theme-options/option-panel.php:50
+msgid "6 Types of Portfolio Templates"
+msgstr ""
+
+#: ../theme-options/option-panel.php:51
+msgid "12 types Themes Colors Scheme"
+msgstr ""
+
+#: ../theme-options/option-panel.php:52
+msgid "Patterns Background"
+msgstr ""
+
+#: ../theme-options/option-panel.php:58 ../theme-options/option-panel.php:59
+msgid "Image Background"
+msgstr ""
+
+#: ../theme-options/option-panel.php:60
+msgid "Ultimate Portfolio layout with Isotope effect"
+msgstr ""
+
+#: ../theme-options/option-panel.php:61
+msgid "Rich Short codes"
+msgstr ""
+
+#: ../theme-options/option-panel.php:62
+msgid "Translation Ready"
+msgstr ""
+
+#: ../theme-options/option-panel.php:63
+msgid "Coming Soon Mode"
+msgstr ""
+
+#: ../theme-options/option-panel.php:64
+msgid "Extreme Gallery Design Layout"
+msgstr ""
+
+#: ../theme-options/option-panel.php:76
+msgid "Weblizar Theme Settings"
+msgstr ""
+
+#: ../theme-options/option-panel.php:79
+msgid "Documentation"
+msgstr ""
+
+#: ../theme-options/option-panel.php:80
+msgid "Support Forum"
+msgstr ""
+
+#: ../theme-options/option-panel.php:81
+msgid "View Changelog"
+msgstr ""
+
+#: ../theme-options/option-panel.php:89
+msgid "Home Option"
+msgstr ""
+
+#: ../theme-options/option-panel.php:91
+msgid "General Option"
+msgstr ""
+
+#: ../theme-options/option-panel.php:92
+msgid "Slide show Option"
+msgstr ""
+
+#: ../theme-options/option-panel.php:93
+msgid "Service Option"
+msgstr ""
+
+#: ../theme-options/option-panel.php:94
+#: ../theme-options/option-settings.php:286
+msgid "Portfolio Option"
+msgstr ""
+
+#: ../theme-options/option-panel.php:95
+msgid "Footer Callout Option"
+msgstr ""
+
+#: ../theme-options/option-panel.php:98
+msgid "Social Media"
+msgstr ""
+
+#: ../theme-options/option-panel.php:99
+msgid "Footer Option"
+msgstr ""
+
+#: ../theme-options/option-panel.php:100
+msgid "Get Premium"
+msgstr ""
+
+#: ../theme-options/option-panel.php:101
+msgid "More Products"
+msgstr ""
+
+#: ../theme-options/option-settings.php:9
+msgid "General Settings"
+msgstr ""
+
+#: ../theme-options/option-settings.php:12
+#: ../theme-options/option-settings.php:116
+#: ../theme-options/option-settings.php:289
+#: ../theme-options/option-settings.php:464
+#: ../theme-options/option-settings.php:614
+#: ../theme-options/option-settings.php:685
+#: ../theme-options/option-settings.php:731
+msgid "Options Data updated"
+msgstr ""
+
+#: ../theme-options/option-settings.php:13
+#: ../theme-options/option-settings.php:117
+#: ../theme-options/option-settings.php:290
+#: ../theme-options/option-settings.php:465
+#: ../theme-options/option-settings.php:615
+#: ../theme-options/option-settings.php:686
+#: ../theme-options/option-settings.php:732
+msgid "Options data Reset"
+msgstr ""
+
+#: ../theme-options/option-settings.php:29
+msgid "Theme Color Schemes"
+msgstr ""
+
+#: ../theme-options/option-settings.php:39
+msgid "light-blue"
+msgstr ""
+
+#: ../theme-options/option-settings.php:40
+msgid "green"
+msgstr ""
+
+#: ../theme-options/option-settings.php:41
+msgid "red"
+msgstr ""
+
+#: ../theme-options/option-settings.php:42
+msgid "pink"
+msgstr ""
+
+#: ../theme-options/option-settings.php:43
+msgid "light-purple"
+msgstr ""
+
+#: ../theme-options/option-settings.php:44
+msgid "orange"
+msgstr ""
+
+#: ../theme-options/option-settings.php:45
+msgid "bright-green"
+msgstr ""
+
+#: ../theme-options/option-settings.php:46
+msgid "dark-blue"
+msgstr ""
+
+#: ../theme-options/option-settings.php:47
+msgid "oil"
+msgstr ""
+
+#: ../theme-options/option-settings.php:48
+msgid "black"
+msgstr ""
+
+#: ../theme-options/option-settings.php:49
+msgid "light-brown"
+msgstr ""
+
+#: ../theme-options/option-settings.php:50
+msgid "coffee"
+msgstr ""
+
+#: ../theme-options/option-settings.php:51
+msgid "flat-blue"
+msgstr ""
+
+#: ../theme-options/option-settings.php:53
+msgid "Select OUT of 10+ Color Schemes"
+msgstr ""
+
+#: ../theme-options/option-settings.php:60
+msgid "Custom Logo"
+msgstr ""
+
+#: ../theme-options/option-settings.php:63
+msgid "Add custom logo from here suggested size is 150X50"
+msgstr ""
+
+#: ../theme-options/option-settings.php:69
+msgid "Logo Height"
+msgstr ""
+
+#: ../theme-options/option-settings.php:71
+msgid ""
+"Default Logo Height : 55px, if you want to increase than specify your value"
+msgstr ""
+
+#: ../theme-options/option-settings.php:74
+msgid "Logo Width"
+msgstr ""
+
+#: ../theme-options/option-settings.php:76
+msgid ""
+"Default Logo Width : 150px, if you want to increase than specify your value"
+msgstr ""
+
+#: ../theme-options/option-settings.php:79
+msgid "Text Title"
+msgstr ""
+
+#: ../theme-options/option-settings.php:80
+msgid "Enable text-based Site Title.   Setup title"
+msgstr ""
+
+#: ../theme-options/option-settings.php:80
+msgid "Click Here"
+msgstr ""
+
+#: ../theme-options/option-settings.php:83
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../theme-options/option-settings.php:86
+msgid "Make sure you upload .icon image type which is not more then 25X25 px."
+msgstr ""
+
+#: ../theme-options/option-settings.php:92
+msgid "Custom css"
+msgstr ""
+
+#: ../theme-options/option-settings.php:94
+msgid ""
+"This is a powerful feature provided here. No need to use custom css plugin, "
+"just paste your css code and see the magic."
+msgstr ""
+
+#: ../theme-options/option-settings.php:97
+msgid "Home-Blog Heading"
+msgstr ""
+
+#: ../theme-options/option-settings.php:99
+msgid "Home Blog Heading "
+msgstr ""
+
+#: ../theme-options/option-settings.php:113
+msgid "Slidshow Settings"
+msgstr ""
+
+#: ../theme-options/option-settings.php:131
+msgid "Home Slide 1"
+msgstr ""
+
+#: ../theme-options/option-settings.php:139
+msgid "Home Slide Image One"
+msgstr ""
+
+#: ../theme-options/option-settings.php:142
+#: ../theme-options/option-settings.php:181
+#: ../theme-options/option-settings.php:223
+msgid "Add Home Slide image here, size suggestion is 1400X570."
+msgstr ""
+
+#: ../theme-options/option-settings.php:146
+msgid "Home Slide Image Title One"
+msgstr ""
+
+#: ../theme-options/option-settings.php:148
+#: ../theme-options/option-settings.php:188
+#: ../theme-options/option-settings.php:230
+msgid "Type Home Slide Image Title Here"
+msgstr ""
+
+#: ../theme-options/option-settings.php:149
+msgid "Home Slide Image Description One"
+msgstr ""
+
+#: ../theme-options/option-settings.php:151
+#: ../theme-options/option-settings.php:192
+#: ../theme-options/option-settings.php:234
+msgid "Type Home Slide Image Description Here"
+msgstr ""
+
+#: ../theme-options/option-settings.php:152
+msgid "Home Slide Image Button Text One"
+msgstr ""
+
+#: ../theme-options/option-settings.php:154
+#: ../theme-options/option-settings.php:196
+#: ../theme-options/option-settings.php:238
+msgid "Type Home Slide Image Button Text Here"
+msgstr ""
+
+#: ../theme-options/option-settings.php:155
+msgid "Home Slide Image Button Link One"
+msgstr ""
+
+#: ../theme-options/option-settings.php:157
+#: ../theme-options/option-settings.php:200
+#: ../theme-options/option-settings.php:242
+msgid "Type Home Slide Image Button Link Here"
+msgstr ""
+
+#: ../theme-options/option-settings.php:170
+msgid "Home Slide 2"
+msgstr ""
+
+#: ../theme-options/option-settings.php:178
+msgid "Home Slide Image Two"
+msgstr ""
+
+#: ../theme-options/option-settings.php:186
+msgid "Home Slide Image Title Two"
+msgstr ""
+
+#: ../theme-options/option-settings.php:190
+msgid "Home Slide Image Description Two"
+msgstr ""
+
+#: ../theme-options/option-settings.php:194
+msgid "Home Slide Image Button Text Two"
+msgstr ""
+
+#: ../theme-options/option-settings.php:198
+msgid "Home Slide Image Button Link Two"
+msgstr ""
+
+#: ../theme-options/option-settings.php:212
+msgid "Home Slide 3"
+msgstr ""
+
+#: ../theme-options/option-settings.php:220
+msgid "Home Slide Image Three"
+msgstr ""
+
+#: ../theme-options/option-settings.php:228
+msgid "Home Slide Image Title Three"
+msgstr ""
+
+#: ../theme-options/option-settings.php:232
+msgid "Home Slide Image Description Three"
+msgstr ""
+
+#: ../theme-options/option-settings.php:236
+msgid "Home Slide Image Button Text Three"
+msgstr ""
+
+#: ../theme-options/option-settings.php:240
+msgid "Home Slide Image Button Link Three"
+msgstr ""
+
+#: ../theme-options/option-settings.php:256
+msgid "More Slides"
+msgstr ""
+
+#: ../theme-options/option-settings.php:265
+msgid "Add Unlimited slides for your sideshow "
+msgstr ""
+
+#: ../theme-options/option-settings.php:300
+msgid "Enable Portfolio on Home"
+msgstr ""
+
+#: ../theme-options/option-settings.php:301
+msgid "Enable Portfolio On Home."
+msgstr ""
+
+#: ../theme-options/option-settings.php:304
+msgid "Portfolio Section Heading"
+msgstr ""
+
+#: ../theme-options/option-settings.php:306
+msgid "Type here your Portfolio heading"
+msgstr ""
+
+#: ../theme-options/option-settings.php:312
+msgid "Portfolio One"
+msgstr ""
+
+#: ../theme-options/option-settings.php:319
+msgid "Portfolio One Image"
+msgstr ""
+
+#: ../theme-options/option-settings.php:322
+#: ../theme-options/option-settings.php:352
+#: ../theme-options/option-settings.php:382
+#: ../theme-options/option-settings.php:412
+msgid "Add Portfolio image here, size suggestion is 570 X 350 px."
+msgstr ""
+
+#: ../theme-options/option-settings.php:326
+msgid "Portfolio One Title"
+msgstr ""
+
+#: ../theme-options/option-settings.php:328
+msgid "Type title fro home portfolio one"
+msgstr ""
+
+#: ../theme-options/option-settings.php:329
+msgid "Portfolio One Link"
+msgstr ""
+
+#: ../theme-options/option-settings.php:331
+#: ../theme-options/option-settings.php:361
+#: ../theme-options/option-settings.php:391
+#: ../theme-options/option-settings.php:421
+msgid "Put link URL here"
+msgstr ""
+
+#: ../theme-options/option-settings.php:342
+msgid "Portfolio Two"
+msgstr ""
+
+#: ../theme-options/option-settings.php:349
+msgid "Portfolio Two Image"
+msgstr ""
+
+#: ../theme-options/option-settings.php:356
+msgid "Portfolio Two Title"
+msgstr ""
+
+#: ../theme-options/option-settings.php:358
+#: ../theme-options/option-settings.php:388
+#: ../theme-options/option-settings.php:418
+msgid "Type title from home portfolio"
+msgstr ""
+
+#: ../theme-options/option-settings.php:359
+msgid "Portfolio Two Link"
+msgstr ""
+
+#: ../theme-options/option-settings.php:372
+msgid "Portfolio Three"
+msgstr ""
+
+#: ../theme-options/option-settings.php:379
+msgid "Portfolio Three Image"
+msgstr ""
+
+#: ../theme-options/option-settings.php:386
+msgid "Portfolio Three Title"
+msgstr ""
+
+#: ../theme-options/option-settings.php:389
+msgid "Portfolio Three Link"
+msgstr ""
+
+#: ../theme-options/option-settings.php:402
+msgid "Portfolio Four"
+msgstr ""
+
+#: ../theme-options/option-settings.php:409
+msgid "Portfolio Four Image"
+msgstr ""
+
+#: ../theme-options/option-settings.php:416
+msgid "Portfolio Four Title"
+msgstr ""
+
+#: ../theme-options/option-settings.php:419
+msgid "Portfolio Four Link"
+msgstr ""
+
+#: ../theme-options/option-settings.php:434
+msgid "Create Unlimited Portfolio"
+msgstr ""
+
+#: ../theme-options/option-settings.php:441
+msgid "Add More Sections and More Features on your website."
+msgstr ""
+
+#: ../theme-options/option-settings.php:461
+msgid "Service Settings"
+msgstr ""
+
+#: ../theme-options/option-settings.php:475
+msgid "Service Section Heading"
+msgstr ""
+
+#: ../theme-options/option-settings.php:477
+msgid "Type here your service heading"
+msgstr ""
+
+#: ../theme-options/option-settings.php:484
+msgid "Service one"
+msgstr ""
+
+#: ../theme-options/option-settings.php:491
+#: ../theme-options/option-settings.php:524
+#: ../theme-options/option-settings.php:556
+msgid "Service Title"
+msgstr ""
+
+#: ../theme-options/option-settings.php:493
+#: ../theme-options/option-settings.php:526
+#: ../theme-options/option-settings.php:558
+msgid "Type here your service title"
+msgstr ""
+
+#: ../theme-options/option-settings.php:494
+#: ../theme-options/option-settings.php:527
+#: ../theme-options/option-settings.php:559
+msgid "Service  Icons"
+msgstr ""
+
+#: ../theme-options/option-settings.php:497
+#: ../theme-options/option-settings.php:530
+#: ../theme-options/option-settings.php:562
+msgid "Service Icon (Using Bootstrap icons name) like: icon-tablet"
+msgstr ""
+
+#: ../theme-options/option-settings.php:497
+#: ../theme-options/option-settings.php:530
+#: ../theme-options/option-settings.php:562
+msgid "Get your Font Awesome icons"
+msgstr ""
+
+#: ../theme-options/option-settings.php:498
+#: ../theme-options/option-settings.php:531
+#: ../theme-options/option-settings.php:563
+msgid "Service Description"
+msgstr ""
+
+#: ../theme-options/option-settings.php:503
+#: ../theme-options/option-settings.php:536
+#: ../theme-options/option-settings.php:568
+msgid "Type here your service description."
+msgstr ""
+
+#: ../theme-options/option-settings.php:504
+#: ../theme-options/option-settings.php:537
+#: ../theme-options/option-settings.php:569
+msgid "Service  Link"
+msgstr ""
+
+#: ../theme-options/option-settings.php:506
+#: ../theme-options/option-settings.php:539
+#: ../theme-options/option-settings.php:571
+msgid "Type here your service link"
+msgstr ""
+
+#: ../theme-options/option-settings.php:516
+msgid "Service Two"
+msgstr ""
+
+#: ../theme-options/option-settings.php:550
+msgid "Service Three"
+msgstr ""
+
+#: ../theme-options/option-settings.php:583
+msgid "More Services"
+msgstr ""
+
+#: ../theme-options/option-settings.php:591
+msgid "Add More Services on your Home Page."
+msgstr ""
+
+#: ../theme-options/option-settings.php:611
+msgid "Social media"
+msgstr ""
+
+#: ../theme-options/option-settings.php:625
+msgid "Enable Social media:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:626
+msgid "Enable social media Header Section."
+msgstr ""
+
+#: ../theme-options/option-settings.php:627
+msgid "Enable Social media in Footer section."
+msgstr ""
+
+#: ../theme-options/option-settings.php:630
+msgid "E-mail:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:632
+msgid "Enter Email Id."
+msgstr ""
+
+#: ../theme-options/option-settings.php:633
+msgid "Contact Number:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:635
+msgid "Enter Contact Number."
+msgstr ""
+
+#: ../theme-options/option-settings.php:638
+msgid "Twitter Link:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:640
+msgid "Enter twitter link."
+msgstr ""
+
+#: ../theme-options/option-settings.php:643
+msgid "Linkedin Links:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:645
+msgid "Enter linkedin link."
+msgstr ""
+
+#: ../theme-options/option-settings.php:649
+msgid "Facebook Links:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:651
+msgid "Enter facebook link."
+msgstr ""
+
+#: ../theme-options/option-settings.php:655
+msgid "Youtube Links:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:657
+msgid "Enter youtube link."
+msgstr ""
+
+#: ../theme-options/option-settings.php:660
+msgid "Google Plus Link:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:662
+msgid "Enter google plus link."
+msgstr ""
+
+#: ../theme-options/option-settings.php:665
+msgid "Instagram Links:"
+msgstr ""
+
+#: ../theme-options/option-settings.php:667
+msgid "Enter Instagram link."
+msgstr ""
+
+#: ../theme-options/option-settings.php:682
+msgid "Footer Customization"
+msgstr ""
+
+#: ../theme-options/option-settings.php:696
+msgid "Footer customization"
+msgstr ""
+
+#: ../theme-options/option-settings.php:698
+msgid "Enter your footer customization text "
+msgstr ""
+
+#: ../theme-options/option-settings.php:701
+msgid "Developed by text"
+msgstr ""
+
+#: ../theme-options/option-settings.php:703
+msgid "Enter developed by text"
+msgstr ""
+
+#: ../theme-options/option-settings.php:706
+msgid "Developed by link text"
+msgstr ""
+
+#: ../theme-options/option-settings.php:708
+msgid "Enter developed by link text  "
+msgstr ""
+
+#: ../theme-options/option-settings.php:711
+msgid "Developed by link"
+msgstr ""
+
+#: ../theme-options/option-settings.php:713
+msgid "Enter developed by link"
+msgstr ""
+
+#: ../theme-options/option-settings.php:728
+msgid "Footer Call Out"
+msgstr ""
+
+#: ../theme-options/option-settings.php:742
+#: ../theme-options/option-settings.php:744
+msgid "Footer Call Out Tagline"
+msgstr ""
+
+#: ../theme-options/option-settings.php:747
+msgid "Button Text"
+msgstr ""
+
+#: ../theme-options/option-settings.php:749
+msgid "Enter Button text  "
+msgstr ""
+
+#: ../theme-options/option-settings.php:752
+#: ../theme-options/option-settings.php:754
+msgid "Button link"
+msgstr ""

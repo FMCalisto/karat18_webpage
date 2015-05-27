@@ -1,0 +1,135 @@
+/*--------------------------------------------------------------
+16.0 - Jetpack	
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+16.1 - Contact Form
+--------------------------------------------------------------*/
+div[id*="contact-form"] {
+
+	div {
+
+		label {
+  			margin-bottom: 0.25em;
+		}
+
+		input,
+		input[type='text'],
+		input[type='email'],
+		textarea {
+			margin-bottom: rhythm(0.75);
+		}
+	}
+
+	.contact-submit {
+		margin-top: rhythm(0.25);
+	}	
+
+	h3 {
+		@include adjust-font-size-to(18px);
+		margin: 0;
+	}
+
+	blockquote {
+		@include adjust-font-size-to(14px)
+	}	
+}
+
+/*--------------------------------------------------------------
+16.2 - Contact Info
+--------------------------------------------------------------*/
+.widget_contact_info .contact-map {
+	margin-bottom: rhythm(0.5);
+}
+
+/*--------------------------------------------------------------
+16.3 - Display Posts
+--------------------------------------------------------------*/
+.widget_jetpack_display_posts_widget {
+
+	.jetpack-display-remote-posts h4 {
+  		font-size: 1.0769em !important;
+  		font-weight: normal;
+  		margin: rhythm(0.5) 0 !important;	
+  		
+  		~ a {
+  			display: block;
+  			margin-bottom: rhythm(0.5);
+  		}
+	}
+
+	.jetpack-display-remote-posts p {
+		margin: 0 0 rhythm(1) 0 !important;
+	  	line-height: 1.7857 !important;
+	  	font-size: 100%;
+	}	
+}
+
+/*--------------------------------------------------------------
+16.4 - Gravatar Profile
+--------------------------------------------------------------*/
+#secondary .widget-grofile {
+
+	h4 {
+		font-size: 1.0769em;
+		line-height: 1.7857;
+		margin: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+16.5 - Infinite Scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+16.6 - RSS Links
+--------------------------------------------------------------*/
+.widget_rss_links {
+
+	p {
+		margin: 0 0 rhythm(0.5);
+		
+		img {
+			display: block;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+16.7 - Subscriptions
+--------------------------------------------------------------*/
+p.comment-subscription-form {
+	margin-bottom: 0.25em; 
+	
+	input[type="checkbox"] {
+		@include adjust-font-size-to(13px);
+		display: inline-block !important;
+		margin-right: 0.25em;
+		vertical-align: middle;
+	}
+
+	label.subscribe-label {
+		@include adjust-font-size-to(13px);
+		display: inline-block !important;
+		font-weight: normal;
+		margin-bottom: 0; 
+		vertical-align: middle;
+	}
+}
+
+#subscribe-email {
+	margin-bottom: rhythm(0.5);
+
+	input {
+		padding: 0.6429em 0.7143em !important;
+	}
+}

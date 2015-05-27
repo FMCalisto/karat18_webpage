@@ -1,0 +1,31 @@
+table {
+	border: 1px solid $color__background-hr;  
+	margin: 0 0 rhythm(1);
+	width: 100%;
+	
+	th, 
+	td {
+		border: 1px solid $color__background-hr;  
+		padding: 0.75em;
+
+		@include breakpoint($small) {
+			padding: 2%;
+		}
+	}
+	
+	th {
+		font-weight: 600;
+	}
+}
+
+.entry-content table {
+	
+	a {
+		border-bottom: none;
+		
+		&:hover {
+			border-bottom: none;
+			color: $color__text-main;
+		}
+	}
+}

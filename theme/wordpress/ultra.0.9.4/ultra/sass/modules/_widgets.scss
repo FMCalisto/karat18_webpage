@@ -1,0 +1,299 @@
+/*--------------------------------------------------------------
+13.1 - General Styles
+--------------------------------------------------------------*/
+#secondary .widget {
+	margin-bottom: rhythm(1.5);
+	width: 100%; 
+	
+	&:last-of-type {
+		margin-bottom: 0; 
+	} 
+
+	a:hover {
+		color: $color__text-main;
+	}	
+}
+
+#colophon .widget {
+	padding: rhythm(1.5) 0 rhythm(2);
+	
+	@include breakpoint($medium) {
+		padding: rhythm(0.5) 0 rhythm(0.5);
+		
+		&:first-of-type {
+			padding-top: rhythm(1.5);
+		}
+
+		&:last-of-type {
+			padding-bottom: rhythm(2);
+		}
+	}
+}
+
+#secondary .widget, 
+#colophon .widget {
+	
+	h3.widget-title {
+		@include adjust-font-size-to(16px);
+		margin-bottom: rhythm(0.5);
+		text-transform: uppercase;
+		
+		~ * {
+			@include adjust-font-size-to(13px);
+		}
+
+		a {
+			border-bottom: none;
+			color: $color__text-headings;
+			
+			&:hover {
+				border-bottom: none;
+				color: $color__link;
+			}
+		}
+		
+		&:first-of-type {
+			margin-top: 0;
+		}
+	}
+}
+
+#colophon .widget h3.widget-title a {
+	color: $color__text-main-minus-5;
+			
+	&:hover {
+		color: $color__text-main-minus-5;
+	}
+}
+
+#secondary .widget ul, 
+#colophon .widget ul {
+	list-style: none;
+	margin-left: 0; 
+	padding-left: 0;
+	
+	li > ul {
+		margin-left: 1em;
+	} 
+}
+
+#colophon .widget ul {
+	margin: 0;
+}
+
+#secondary .widget, 
+#colophon .widget {
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="tel"],
+	input[type="number"],
+	input[type="date"],
+	input[type="password"],
+	input[type="search"] {
+		@include box-sizing(border-box);
+		width: 100%; 
+	}	
+}
+
+#secondary .widget, 
+#colophon .widget {
+
+	select {
+		max-width: 100%;	
+	}
+}
+
+#secondary .widget, 
+#colophon .widget {
+
+	textarea {
+		width: 100%; 
+	}
+}
+
+/*--------------------------------------------------------------
+13.2 - Calendar
+--------------------------------------------------------------*/
+#wp-calendar {
+	border: none;
+	margin: 0;
+	
+	caption { 
+		font-weight: 600;
+		text-align: right;
+		padding-bottom: 0.4286em;
+	}
+
+	th, td {
+		border: none;
+		padding: 0.2143em 0.2143em 0.1429em !important;
+	}
+
+	thead th {
+		text-align: center;
+		padding-bottom: 0.4286em !important; 
+	}
+
+	tbody {
+
+		.pad {
+			background: none;
+		}
+
+		td { 
+			background: $color__background-light; 
+			border: 0.1429em solid $color__background-body;
+			text-align: center;
+			
+			&:hover {
+				background: $color__background-body;  			
+			}
+
+			a {
+				border-bottom: none !important;
+				display: block;
+				
+				&:hover {
+					border-bottom: none !important;
+				}
+			}
+		}		
+	}
+	
+	tfoot {
+
+		#prev, #next {
+			padding-top: 0.4286em !important; 
+		}
+
+		#next {
+			text-align: right;			
+		}
+	}
+}
+
+/* Footer Calendar styling: colors assume the original theme footer background color. */
+.site-footer #wp-calendar tbody td {
+	background: $color__background-dark;
+	border-color: $color__background_darker;
+	
+	a {
+		color: $color__background-body;
+		
+		&:hover {
+			color: $color__text-main-minus-3;
+		}
+	}	
+}
+
+/*--------------------------------------------------------------
+13.3 - RSS
+--------------------------------------------------------------*/
+#secondary .widget_rss, 
+#colophon .widget_rss {
+	
+	h3.widget-title:before {
+		content: "\f09e";
+		display: inline-block;
+		font-family: $font__icon;
+		font-size: 0.8125em; 
+		margin-right: 0.1875em; 
+	}
+
+	h3.widget-title .rsswidget {
+		display: inline-block;
+	}
+
+	img {
+		display: none;
+	}
+
+	li {
+		margin-bottom: rhythm(0.5);
+
+		&:last-of-type {
+			margin-bottom: 0; 
+		}
+	}
+
+	.rss-date {
+		color: $color__text-main-minus-3;
+		display: inline-block;
+		font-size: 0.9231em;
+	}
+
+	cite { 
+		display: inline-block;
+	}
+}
+
+#colophon .widget_rss .rss-date {
+	color: $color__text-main-minus-2;
+}
+
+/*--------------------------------------------------------------
+13.4 - Recent Comments
+--------------------------------------------------------------*/
+#secondary .widget_recent_comments, 
+#colophon .widget_recent_comments {
+
+	li {
+		margin-bottom: 0.6429em; 
+		
+		&:last-of-type {
+			margin-bottom: 0; 
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+13.5 - Recent Posts
+--------------------------------------------------------------*/
+#secondary .widget_recent_entries span, 
+#colophon .widget_recent_entries span {
+	@include adjust-leading-to(0.5);
+	color: $color__text-main-minus-3;
+	display: block;
+	font-size: 0.9231em;
+	margin-bottom: rhythm(0.5); 
+}
+
+#colophon .widget_recent_entries span {
+	color: $color__text-main-minus-2;
+}
+
+/*--------------------------------------------------------------
+13.6 - Search
+--------------------------------------------------------------*/
+#secondary .widget_search, 
+#colophon .widget_search {
+
+	.search-form {
+		position: relative;
+
+		label {
+			display: block !important;
+			&:before {
+				color: $color__text-input;
+				content: '\f002';
+				font-family: $font__icon;
+				position: absolute;
+				top: 0.3077em;
+				right: 1.2143em;
+			}			
+		}
+
+		input[type="search"] {
+			@include box-sizing(border-box);
+			display: block;
+			font-weight: normal; 
+			max-width: 100%;
+			padding-right: 2.1538em; 
+			width: 100%; 
+		}
+		.search-submit {
+			display: none;
+		}	
+	}
+}

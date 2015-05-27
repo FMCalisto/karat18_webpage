@@ -1,0 +1,129 @@
+/*
+	A Clean color scheme for Simple Catch Theme
+*/
+
+body {
+	background-color: #222;
+	color: #bbb;
+}
+#header,
+#footer,
+#main #content .post-img a {
+	background: none #000;
+}
+#header .top-bg {
+    background: none #333;
+    height: 0;
+}
+h1#site-title a {
+	color: #ddd;
+}
+h1#site-title a:hover {
+	color: #fff;
+}
+h2#site-description {
+	color: #aaa;
+}
+#header,
+#header .top-bg,
+#header .bottom-bg,
+#footer,
+hr,
+#sidebar hr,
+#main #content .post-img a {
+	border-color: #333;
+}
+#main h1 a,
+#main h2 a,
+#main h3 a, 
+#main h4 a,
+#main h5 a, 
+#main h6 a,
+h3, 
+h4, 
+h5, 
+h6,
+a.readmore,
+ul li a, 
+ol li a,
+#sidebar ul li a, 
+#sidebar ol li a,
+#footer span,
+#footer a {
+    color: #ddd;
+}
+#main #content ul.post-by li,
+#main #content ul.post-by li a {
+    color: #aaa;
+}
+#main #content ul.post-by li a:hover {
+	color: #bbb;
+}
+#main h2.entry-title a:hover,
+ul li a:hover, 
+ol li a:hover,
+#sidebar ul li a:hover, 
+#sidebar ol li a:hover,
+#footer a:hover {
+	color: #fff;
+}
+ul.default-wp-page li.previous a {
+    background-image: url("../images/ul-bg-prev-dark.png");
+}
+ul.default-wp-page li.next a {
+    background-image: url("../images/ul-bg-dark.png");
+}
+#sidebar, 
+#sidebar p {
+	color: #ccc;
+}
+ul {
+    list-style: disc outside url("../images/ul-bg-dark.png");
+}
+#footer {
+	color: #aaa;
+}
+#header #mainmenu {
+	background-color: #222;
+	border-color: #333;
+	box-shadow: none;
+}
+#header #mainmenu ul li,
+.breadcrumb ul,
+.breadcrumb ul li a,
+.breadcrumb ul li.current_item a, 
+.breadcrumb ul li.current_item {
+	border-color: #333;
+}
+#header #mainmenu ul li a {
+	color: #ddd;
+}
+#controllers a {
+    background-color: #fff;
+}
+#controllers a:hover, 
+#controllers a.active {
+    background-color: #999;
+}
+.featured {
+    background-color: #222;
+	border-color: #333;
+}
+#content #wp_page_numbers {
+	background: transparent;
+}
+.breadcrumb ul li a {
+	background-color: #000;
+}
+.breadcrumb ul li a {
+    background: url("../images/breadcrumb-bg-dark.png") no-repeat scroll right -15px #000;
+	color: #bbb;
+}
+.breadcrumb ul li a:hover {
+	background-position: right 8px;
+	color: #fff;
+}
+.breadcrumb ul li.current_item a, 
+.breadcrumb ul li.current_item {
+	background-color: #333;
+}

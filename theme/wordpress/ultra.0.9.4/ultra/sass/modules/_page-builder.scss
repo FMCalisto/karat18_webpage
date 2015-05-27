@@ -1,0 +1,74 @@
+/*--------------------------------------------------------------
+10.1 - SiteOrigin Page Builder Lite
+--------------------------------------------------------------*/
+p.siteorigin-panels-lite-message {
+	white-space: normal !important;
+}
+
+/*--------------------------------------------------------------
+10.2 - Page Builder Row Styles
+--------------------------------------------------------------*/
+.siteorigin-panels-stretch .panel-grid-cell {
+	
+	&:first-of-type .widget {
+		padding-left: rhythm(1);
+	}
+
+	&:last-of-type .widget {
+		padding-right: rhythm(1);
+	}
+
+	&:only-of-type .widget {
+		padding-right: rhythm(1);
+		padding-left: rhythm(1);
+	}
+}
+
+/*--------------------------------------------------------------
+10.2 - SiteOrigin Features Widget
+--------------------------------------------------------------*/
+.panel-grid-cell .sow-features-list .sow-features-feature p.sow-more-text  {
+
+	a { 
+		border: none;
+		font-weight: 700;
+		
+		&:hover {
+			border: none;
+			color: $color__link;
+			text-decoration: none;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+10.3 - SiteOrigin Post Carousel Widget
+--------------------------------------------------------------*/
+.panel-grid-cell .sow-carousel-wrapper {
+	
+	a, 
+	a:hover {
+		border: none;	
+	}
+
+	.sow-carousel-title .widget-title {
+		font-size: 1.1429em;
+		text-transform: uppercase;
+	}
+
+	ul.sow-carousel-items li.sow-carousel-item {
+			 	
+		h3 {
+			font-size: 1em;
+		 	font-weight: 700;
+		 	
+		 	a:hover {
+		 		color: $color__link;	
+		 	}
+		}
+
+		.sow-carousel-thumbnail a span.overlay {
+			background: $color__link;
+		}	
+	}		
+}

@@ -1,0 +1,41 @@
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	@include hyphens(auto);
+	@include word-break(normal);
+	clear: both;
+	color: $color__text-headings;
+	font-weight: 700;
+	margin: rhythm(0.5) 0;		
+	
+	@include breakpoint($small) {
+		line-height: normal;
+	}
+}
+
+h1 {
+	@include adjust-font-size-to(25px);
+}
+
+h2 {
+	@include adjust-font-size-to(22px);
+}
+
+h3 {
+	@include adjust-font-size-to(20px);
+}
+
+h4 {
+	@include adjust-font-size-to(18px);
+}
+
+h5 {
+	@include adjust-font-size-to(16px);
+}
+
+h6 {
+	@include adjust-font-size-to(14px);
+}

@@ -1,0 +1,477 @@
+/*--------------------------------------------------------------
+14.6.1 - General Styles
+--------------------------------------------------------------*/
+article {
+	@include trailing-border(1px, 1.5);
+	@include trailer(1.5);
+	border-color: $color__background-hr; 
+	
+	&:last-of-type {
+		@include trailing-border(0, 0);
+		margin-bottom: 0; 
+	}
+}
+
+/*--------------------------------------------------------------
+14.6.2 - Post and Page Featured Image
+--------------------------------------------------------------*/
+.entry-thumbnail {
+	border: none;
+	display: block;
+	height: auto; 
+	margin-bottom: rhythm(1);
+	
+	a {	
+		display: block;
+	}	
+	
+	img {
+		@include center-block;
+	}
+}	
+
+.sticky {
+	/* Style the sticky class */
+}
+
+/*--------------------------------------------------------------
+14.6.3 - General Post and Page Header
+--------------------------------------------------------------*/
+.entry-header, 
+.page-header {
+
+	h1.entry-title, 
+	h1.page-title {
+		@include adjust-font-size-to(25px);
+		margin: 0;
+		
+		@include breakpoint($small) {
+			@include adjust-font-size-to(22px);
+			line-height: normal;
+		}			 
+		
+		a {
+			border: none;
+			color: $color__text-headings;
+			
+			&:hover {
+				border: none;
+				color: $color__link;
+			}
+		}	
+	}
+
+	.breadcrumbs {
+		@include box-sizing(border-box);
+		color: $color__text-main-minus-3;
+		display: inline-block;
+		text-align: right;
+		vertical-align: middle;
+		width: 30%;
+		
+		@include breakpoint($medium) {
+			text-align: center;
+			width: 100%;
+		}
+
+		> * {
+			@include adjust-font-size-to(13px);
+			line-height: normal;
+		}
+
+		&.breadcrumb-trail {
+			margin-left: -4px;
+		}
+		
+		a {
+			color: $color__text-main-minus-3;
+			
+			&:hover {
+				color: $color__link;
+			}
+		}
+	}	
+}
+
+body.single .entry-header, 
+body.page .site-content > .entry-header,
+body.blog .page-header,
+body.archive .page-header,
+body.search-results .page-header,
+body.search-no-results .page-header,
+body.error404 .page-header {
+	@include box-sizing(content-box);
+	background: $color__background-lighter;
+	padding: rhythm(0.75) rhythm(1);
+}
+
+body.page .site-content > .entry-header,
+body.blog .page-header,
+body.archive .page-header,
+body.search-results .page-header,
+body.search-no-results .page-header,
+body.error404 .page-header {
+	margin-bottom: rhythm(1.5);		
+}
+
+body.single .entry-header {
+	margin-bottom: rhythm(0.5);
+}
+
+body.single .entry-header h1.entry-title,
+body.page .site-content > .entry-header h1.entry-title,
+body.blog .page-header h1.page-title,
+body.search-results .page-header h1.page-title,
+body.search-no-results .page-header h1.page-title,
+body.error404 .page-header h1.page-title {
+	@include box-sizing(border-box);
+	display: inline-block;
+	vertical-align: middle;
+	width: 70%;
+	
+	@include breakpoint($medium) {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+/*--------------------------------------------------------------
+14.6.4 - Single Post Header
+--------------------------------------------------------------*/
+body.single {
+
+	.entry-meta {
+		@include box-sizing(content-box);
+		padding: 0 rhythm(1);
+		
+		.container {
+			@include clearfix;
+			border-bottom: 1px solid $color__background-hr; 	
+			margin-bottom: rhythm(2);
+			padding-bottom: rhythm(0.25);
+			width: 100%;
+		}
+
+		.entry-meta-inner {
+			float: left;		
+		}
+	
+		div > span {
+			@include adjust-font-size-to(13px);
+		}
+
+		.post-navigation {
+			display: inline-block;
+			float: right;
+			
+			.nav-previous, 
+			.nav-next {
+				display: inline-block;
+				float: none;
+			}
+
+			@include breakpoint($medium) {
+				.nav-previous, 
+				.nav-next {
+					@include trailer(0);
+					width: auto; 
+				}
+			}
+			
+			.nav-previous a:before, 
+			.nav-next a:after {
+				display: block;
+				font-family: $font__icon; 
+				font-size: 1.1429em;
+				line-height: normal;
+				padding-top: 3px; 
+			}			
+		}
+	}
+}
+
+
+/*--------------------------------------------------------------
+14.6.5 - Archive Header
+--------------------------------------------------------------*/
+body.archive {
+	
+	.container .title-wrapper {
+		@include box-sizing(border-box);
+		display: inline-block;
+		vertical-align: middle;
+		width: 70%;
+
+		.taxonomy-description {
+			p {
+				color: $color__text-main-minus-3;
+				margin: 0;
+			}				
+		}	
+	}
+}
+
+/*--------------------------------------------------------------
+14.6.6 - Post Entry Meta
+--------------------------------------------------------------*/
+.entry-meta {
+	color: $color__text-main-minus-3;
+	margin-bottom: rhythm(1);
+			
+	a {
+		border: none;
+		color: $color__text-main-minus-3;
+		font-weight: 400;
+		
+		&:hover {
+			border: none;
+			color: $color__link;
+		}
+	}
+
+	div > span {
+		@include adjust-font-size-to(13px);
+	}
+
+	span {
+		display: inline-block;
+		margin-right: 1.0769em; 
+		
+		span {
+			margin-right: 0; 
+		}
+	}
+
+	span:before, a:before {
+		@include adjust-font-size-to(13px);
+		font-family: $font__icon;
+		padding-right: 0.4554em; 
+	}
+
+	.featured-post:before {
+		content: "\f0c6";
+	}	
+
+	.entry-date:before {
+		content: "\f133";
+	}
+
+	.updated {
+		display: none;
+	}
+
+	.author:before {
+		content: "\f040";	 
+	}
+
+	.comments-link:before {
+		content: "\f0e6"; 	
+	}	
+}	
+
+/*--------------------------------------------------------------
+14.6.7 - Content Area Link Formatting
+--------------------------------------------------------------*/
+.entry-content {
+
+	p,
+	li,
+	dl,
+	pre,
+	code,
+	blockquote {
+		a {	
+			color: $color__link;
+			border-bottom: 1px dotted $color__link; 
+		
+			&:hover {
+				border-bottom: 1px solid $color__link; 
+			}
+		}		
+	}
+
+	a[href$=".jpg"], 
+	a[href$=".jpeg"], 
+	a[href$=".jpe"], 
+	a[href$=".png"], 
+	a[href$=".gif"] {
+		border: none;
+	}	
+
+	.more-wrapper {
+		display: block;
+		
+		.more-link {
+			@include border-radius(3px);
+			@include transition(0.3s);
+			background: $color__background-light;
+			border: none;
+			color: $color__text-main;
+			display: block;
+			float: left;
+			font-weight: 400; 
+			line-height: normal;
+			outline-style: none;		 
+			padding: 0.7142em 1.2143em;
+			
+			&:hover {
+				background: $color__link;
+				border-bottom: none;
+				color: $color__background-body;
+			}
+		}		
+	}	
+
+	.page-links {
+		clear: both;
+		margin: 0 0 rhythm(1); 
+		
+		a, 
+		a:hover {
+			border-bottom: none;
+		}
+
+		a:focus {
+			outline: none;
+		}
+		
+		.page-links-title {
+			background: none;
+			color: $color__text-main;
+			font-weight: 600; 
+			padding-right: 0; 
+			padding-left: 0; 
+			text-transform: none; 
+		}
+
+		span {
+			@include border-radius(3px);
+			@include transition(0.3s);
+			background: $color__link;
+			color: $color__background-body;
+			display: inline-block;
+			font-weight: 400;
+			line-height: normal;
+			margin-right: 0.1285em;
+			padding: 0.7142em 1.1428em;
+			text-transform: uppercase;
+		}
+
+		a span {
+			@include transition(0.3s);
+			background: $color__background-light;
+			color: $color__text-main; 
+			outline: none;
+			
+			&:hover {
+				background: $color__link;
+				color: $color__background-body;
+			}
+		}
+	}	
+}
+
+.content-none .site-main {
+
+	a {	
+		color: $color__link;
+		border-bottom: 1px dotted $color__link; 
+	
+		&:hover {
+			border-bottom: 1px solid $color__link; 
+		}
+	}
+	
+}
+
+/*--------------------------------------------------------------
+14.6.8 - Search and Post Password Form Specific
+--------------------------------------------------------------*/
+.search-form, 
+.post-password-form {
+	margin-bottom: 0.8438em;
+	
+	label {
+		display: inline-block;
+		margin-right: 0.3125em; 
+	}
+}
+
+@include breakpoint($small) {
+
+	.post-password-form {
+		
+		label input {
+			display: block;
+			margin-top: 0.8438em; 
+		}
+	}	
+}
+
+/*--------------------------------------------------------------
+14.6.9 - Post Formats
+--------------------------------------------------------------*/
+.format-chat .entry-content {
+	@include border-radius(3px);
+	background: $color__background-lighter;
+	color: $color__text-headings;
+	font-family: $font__code;
+	padding: rhythm(1);
+}
+
+/*--------------------------------------------------------------
+14.6.10 - Post Entry Footer
+--------------------------------------------------------------*/
+.entry-footer {
+	display: block;
+	
+	@include breakpoint($medium) {
+		text-align: center;
+	}
+
+	a {
+		border: none;
+		color: $color__text-main-minus-3;
+		font-weight: 400;
+		
+		&:hover {
+			border: none;
+			color: $color__link;
+		}
+	}
+
+	> span {
+		@include adjust-font-size-to(13px);
+		margin: rhythm(1.5) 1.0769em 0 0;
+	}
+
+	span {
+		color: $color__text-main-minus-3;
+		display: inline-block;
+	}
+
+	span:before, 
+	a:before {
+		font-family: $font__icon;
+		padding-right: 0.4554em; 
+	}
+
+	.cat-links:before {
+		content: "\f03a";
+	}
+
+	.tags-links:before {
+		content: "\f02c";
+	}	
+
+	.edit-link:before {
+		content: "\f0f6";
+	}
+}
+
+/*--------------------------------------------------------------
+14.6.11 - Search Results
+--------------------------------------------------------------*/
+.search-results .entry-footer > span {
+	margin-top: 0;
+}

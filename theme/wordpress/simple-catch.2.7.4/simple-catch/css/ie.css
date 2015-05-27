@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#controllers a {
+	width:13px;
+	height:13px;
+	background-image: url("../images/controllers.png");
+	background-position: 13px 0;
+}
+#controllers a:hover, #controllers a.active {
+	background-position: left top;
+}

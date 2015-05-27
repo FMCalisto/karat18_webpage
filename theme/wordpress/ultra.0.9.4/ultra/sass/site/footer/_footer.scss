@@ -1,0 +1,110 @@
+.site-footer {
+		
+	.footer-main {
+		background: $color__background-darker;
+		color: $color__text-main-minus-3;	
+		padding: 0 5%;
+			
+		h3 {
+			color: $color__text-main-minus-5;
+		}		
+
+		a {
+			color: $color__text-main-minus-3;
+			
+			&:hover {
+				color: $color__text-main-minus-5;
+			}
+		}
+
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="tel"],
+		input[type="number"],
+		input[type="date"],
+		input[type="password"],
+		input[type="search"],
+		select[multiple],
+		textarea {
+			background: $color__background-dark-minus-2;
+			border-color: $color__background-dark-minus-1;
+		}
+
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		input[type="url"]:focus,
+		input[type="password"]:focus,
+		input[type="search"]:focus,
+		textarea:focus {
+			background: $color__background-dark-minus-3;
+			border: 1px solid $color__background-dark-minus-2;
+			color: $color__text-main-minus-4;
+		}
+
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"] {
+			background: $color__background-dark-minus-1;
+			color: $color__text-main-minus-3;
+		}
+
+		button:hover,
+		input[type="button"]:hover,
+		input[type="reset"]:hover,
+		input[type="submit"]:hover {
+			background: $color__background-dark-minus-2;
+		}		
+
+		.widget:last-of-type {
+			@include omega;
+		}
+
+		.widget-count-1 {
+			@include span(full);
+		}
+
+		.widget-count-2 {
+			@include span(6 of 12);
+		}	
+
+		.widget-count-3 {
+			@include span(4 of 12);
+		}	
+
+		.widget-count-4 {
+			@include span(3 of 12); 
+		}	
+
+		.widget-count-5 {
+			@include span(2.4 of 12);
+		}	
+
+		.widget-count-6 {
+			@include span(2 of 12);
+		}	
+
+		.widget-count-7 {
+			@include span(1.7143 of 12);
+		}
+
+		.widget-count-8 {
+			@include span(1.5 of 12);
+		}
+
+		.widget-count-9 {
+			@include span(1.3333 of 12);
+		}
+
+		.widget-count-10 {
+			@include span(1.2 of 12); 
+		}	
+		
+		@include breakpoint($medium) {
+			.widget-count-1, .widget-count-2, .widget-count-3, .widget-count-4, .widget-count-5, .widget-count-6, .widget-count-7, .widget-count-8, .widget-count-9, .widget-count-10 {
+				width: 100%; 
+			}
+		}		
+	}
+}

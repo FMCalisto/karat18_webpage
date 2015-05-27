@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+17.1 - Single Book
+--------------------------------------------------------------*/
+body.single-mbt_book .entry-header {
+	margin-bottom: rhythm(1.5);		
+}
+
+.mbt-breadcrumbs {  
+	@include adjust-font-size-to(13px);
+	color: $color__text-main-minus-3;  
+	font-family: $font__main;
+	padding-bottom: rhythm(0.5);
+	
+	a {
+		color: $color__text-main-minus-3;
+		
+		&:hover {
+			color: $color__link;
+			text-decoration: none;
+		}	
+	}
+}
+
+.mbt-book .mbt-book-meta a {
+	font-weight: normal;
+	
+	&:hover {
+		color: $color__text-main;	
+	}
+}
+
+/*--------------------------------------------------------------
+17.2 - Featured Book Widget
+--------------------------------------------------------------*/
+.mbt-featured-book-widget {
+
+	.mbt-book-title {
+		color: $color__text-main;
+		line-height: 1.7857;
+  		margin: 0 0 rhythm(0.5);
+  		
+	   	a {
+	  		font-size: initial;
+	  		
+	  		&:hover {
+	  			color: $color__link !important;
+	  			font-size: initial;
+	  			text-decoration: none;
+	  		}
+	  	}	
+  	}
+
+	.mbt-book-images {
+		padding-bottom: rhythm(0.5);
+	}
+
+ 	.mbt-book-blurb {
+ 		font-size: 1em;
+ 	} 
+}
