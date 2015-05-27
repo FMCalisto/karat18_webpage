@@ -1,0 +1,52 @@
+
+Version: 1.0.13
+------------------------------------------
+Fixed a css bug which was effecting default skin.
+
+Version: 1.0.11
+------------------------------------------
+Added some prefixes.
+
+Version: 1.0.10
+------------------------------------------
+Deleted some unused code.
+
+Version: 1.0.9
+------------------------------------------
+Changed default homepage layout.
+
+Version: 1.0.8
+------------------------------------------
+Added new skin.
+
+Version: 1.0.7
+------------------------------------------
+Added new skin.
+
+Version: 1.0.6
+------------------------------------------
+Added lte8 specific css.
+
+Version: 1.0.5
+------------------------------------------
+Added lte9 specific css.
+
+Version: 1.0.4
+------------------------------------------
+Mored child theme friendly.
+
+Version: 1.0.3
+------------------------------------------
+Added html5 shiv.
+
+Version: 1.0.2
+------------------------------------------
+Added new skin.
+
+Version: 1.0.1
+------------------------------------------
+Added new skin.
+
+Version: 1.0.0
+------------------------------------------
+Initial release.

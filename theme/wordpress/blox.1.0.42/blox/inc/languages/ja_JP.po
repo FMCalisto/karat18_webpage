@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blox Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-19 10:07:13 UTC\n"
+"PO-Revision-Date: 2013-10-16 18:13+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
+"Language-Team: Japanese, Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../404.php
+msgid "Oops! That page cannot be found."
+msgstr "おっと！そのページが見つかりません。"
+
+#: ../../404.php
+msgid ""
+"It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr "何もこの場所で発見されたように見えます。多分それを探してみてください？"
+
+#: ../../archive.php
+msgid "Category Archives: %s"
+msgstr "カテゴリー アーカイブ: %s"
+
+#: ../../archive.php
+msgid "Tag Archives: %s"
+msgstr "タグ別アーカイブ: %s"
+
+#: ../../archive.php
+msgid "Author Archives: %s"
+msgstr "著者アーカイブ: %s"
+
+#: ../../archive.php
+msgid "Daily Archives: %s"
+msgstr "デイリー アーカイブ: %s"
+
+#: ../../archive.php
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ: %s"
+
+#: ../../archive.php
+msgid "Yearly Archives: %s"
+msgstr "年間アーカイブ： %s"
+
+#: ../../archive.php ../../footer.php ../../sidebar-left.php
+#: ../../sidebar-right.php ../../sidebar.php
+msgid "Archives"
+msgstr "お知らせ"
+
+#: ../../comments.php
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: ../../comments.php
+msgid "Comment navigation"
+msgstr "コメント"
+
+#: ../../comments.php
+msgid "Older Comments"
+msgstr "古いコメント"
+
+#: ../../comments.php
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: ../../comments.php
+msgid "Comments are closed."
+msgstr "コメントフィード"
+
+#: ../../content.php
+msgid "Permalink to %s"
+msgstr "%S への固定リンク"
+
+#: ../../content.php
+msgid "Continue reading"
+msgstr "続きを読む"
+
+#: ../../content.php ../../image.php
+msgid "Pages:"
+msgstr "ページ"
+
+#: ../../content.php ../../image.php
+msgid "Edit"
+msgstr "編集"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Pages"
+msgstr "ページ"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Categories"
+msgstr "部類"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "WordPress"
+msgstr "ワードプレス"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"最新の意味個人的なパブリッシング ・ プラットフォームのワードプレスによって供"
+"給。"
+
+#: ../../functions.php
+msgid "Pingback:"
+msgstr "ピングバック:"
+
+#: ../../functions.php
+msgid "(Edit)"
+msgstr "（編集）"
+
+#: ../../functions.php
+msgid "says:"
+msgstr "発言"
+
+#: ../../functions.php
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: ../../functions.php
+msgid "%1$s at %2$s"
+msgstr "%1 %2$ の $ s"
+
+#: ../../functions.php
+msgid "Blox Free Professional Responsive WordPress Theme"
+msgstr "CyberChimps Pro の応答性の高いワードプレスのスターターのテーマ"
+
+#: ../../image.php
+msgid "Published"
+msgstr "公開"
+
+#: ../../image.php
+msgid "size"
+msgstr "サイズ"
+
+#: ../../image.php
+msgid "in"
+msgstr "で"
+
+#: ../../image.php
+msgid "Previous"
+msgstr "前"
+
+#: ../../image.php
+msgid "Next"
+msgstr "次"
+
+#: ../../image.php
+msgid "Post a comment"
+msgstr "コメントを投稿します。"
+
+#: ../../image.php
+msgid "or leave a trackback"
+msgstr "かtrackbackを残す"
+
+#: ../../image.php
+msgid "Trackback URL"
+msgstr "トラックバックURL"
+
+#: ../../image.php
+msgid "Comments are closed, but you can leave a trackback: "
+msgstr "コメントが閉じている、しかし、トラック バックを残すことができます："
+
+#: ../../image.php
+msgid "Trackbacks are closed, but you can %s"
+msgstr "トラック バックは閉鎖することができます %s"
+
+#: ../../image.php
+msgid "post a comment"
+msgstr "コメントを投稿します。"
+
+#: ../../image.php
+msgid "Both comments and trackbacks are currently closed."
+msgstr "両方のコメントやトラック バックは現在閉鎖されます。"
+
+#: ../../no-results.php
+msgid "Nothing Found"
+msgstr "何が見つかりました"
+
+#: ../../no-results.php
+msgid "Ready to publish your first post?"
+msgstr "あなたの最初の記事を公開する準備ができて？"
+
+#: ../../no-results.php
+msgid "Get started here"
+msgstr "ここで始める"
+
+#: ../../no-results.php
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"申し訳ありませんが、何もあなたの検索用語に一致します。いくつかの異なるキー"
+"ワードでやり直してください。"
+
+#: ../../no-results.php
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"我々 が探しているものを見つけることができないようです。おそらく、検索助けるこ"
+"とができます。"
+
+#: ../../search.php
+msgid "Search Results for: %s"
+msgstr "検索の結果: %s"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Subscribe"
+msgstr "購読"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Entries (RSS)"
+msgstr "エントリ（のRSS）"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Comments (RSS)"
+msgstr "コメント（RSS）"

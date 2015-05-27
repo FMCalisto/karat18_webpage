@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blox Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-19 10:07:13 UTC\n"
+"PO-Revision-Date: 2013-10-16 12:35:46 UTC\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: English, United States\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WebTranslateIt.com\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../../404.php
+msgid "Oops! That page cannot be found."
+msgstr "Oops! That page cannot be found."
+
+#: ../../404.php
+msgid "It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr "It looks like nothing was found at this location. Maybe try searching for it?"
+
+#: ../../archive.php
+msgid "Category Archives: %s"
+msgstr "Category Archives: %s"
+
+#: ../../archive.php
+msgid "Tag Archives: %s"
+msgstr "Tag Archives: %s"
+
+#: ../../archive.php
+msgid "Author Archives: %s"
+msgstr "Author Archives: %s"
+
+#: ../../archive.php
+msgid "Daily Archives: %s"
+msgstr "Daily Archives: %s"
+
+#: ../../archive.php
+msgid "Monthly Archives: %s"
+msgstr "Monthly Archives: %s"
+
+#: ../../archive.php
+msgid "Yearly Archives: %s"
+msgstr "Yearly Archives: %s"
+
+#: ../../archive.php
+#: ../../footer.php
+#: ../../sidebar-left.php
+#: ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Archives"
+msgstr "Archives"
+
+#: ../../comments.php
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: ../../comments.php
+#: ../../comments.php
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#: ../../comments.php
+#: ../../comments.php
+msgid "Older Comments"
+msgstr "Older Comments"
+
+#: ../../comments.php
+#: ../../comments.php
+msgid "Newer Comments"
+msgstr "Newer Comments"
+
+#: ../../comments.php
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: ../../content.php
+#: ../../content.php
+msgid "Permalink to %s"
+msgstr "Permalink to %s"
+
+#: ../../content.php
+#: ../../content.php
+#: ../../content.php
+msgid "Continue reading"
+msgstr "Continue reading"
+
+#: ../../content.php
+#: ../../content.php
+#: ../../content.php
+#: ../../image.php
+msgid "Pages:"
+msgstr "Pages:"
+
+#: ../../content.php
+#: ../../image.php
+#: ../../image.php
+msgid "Edit"
+msgstr "Edit"
+
+#: ../../footer.php
+#: ../../sidebar-left.php
+#: ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Pages"
+msgstr "Pages"
+
+#: ../../footer.php
+#: ../../sidebar-left.php
+#: ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Categories"
+msgstr "Categories"
+
+#: ../../footer.php
+#: ../../footer.php
+#: ../../sidebar-left.php
+#: ../../sidebar-left.php
+#: ../../sidebar-right.php
+#: ../../sidebar-right.php
+#: ../../sidebar.php
+#: ../../sidebar.php
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../../footer.php
+#: ../../sidebar-left.php
+#: ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: ../../functions.php
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../../functions.php
+#: ../../functions.php
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: ../../functions.php
+msgid "says:"
+msgstr "says:"
+
+#: ../../functions.php
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: ../../functions.php
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: ../../functions.php
+msgid "Blox Free Professional Responsive WordPress Theme"
+msgstr "CyberChimps Pro Responsive WordPress Starter Theme"
+
+#: ../../image.php
+msgid "Published"
+msgstr "Published"
+
+#: ../../image.php
+msgid "size"
+msgstr "size"
+
+#: ../../image.php
+msgid "in"
+msgstr "in"
+
+#: ../../image.php
+msgid "Previous"
+msgstr "Previous"
+
+#: ../../image.php
+msgid "Next"
+msgstr "Next"
+
+#: ../../image.php
+msgid "Post a comment"
+msgstr "Post a comment"
+
+#: ../../image.php
+msgid "or leave a trackback"
+msgstr "or leave a trackback"
+
+#: ../../image.php
+#: ../../image.php
+msgid "Trackback URL"
+msgstr "Trackback URL"
+
+#: ../../image.php
+msgid "Comments are closed, but you can leave a trackback: "
+msgstr "Comments are closed, but you can leave a trackback: "
+
+#: ../../image.php
+msgid "Trackbacks are closed, but you can %s"
+msgstr "Trackbacks are closed, but you can %s"
+
+#: ../../image.php
+msgid "post a comment"
+msgstr "post a comment"
+
+#: ../../image.php
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Both comments and trackbacks are currently closed."
+
+#: ../../no-results.php
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: ../../no-results.php
+msgid "Ready to publish your first post?"
+msgstr "Ready to publish your first post?"
+
+#: ../../no-results.php
+msgid "Get started here"
+msgstr "Get started here"
+
+#: ../../no-results.php
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: ../../no-results.php
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: ../../search.php
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: ../../sidebar-left.php
+#: ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: ../../sidebar-left.php
+#: ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Entries (RSS)"
+msgstr "Entries (RSS)"
+
+#: ../../sidebar-left.php
+#: ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Comments (RSS)"
+msgstr "Comments (RSS)"
+

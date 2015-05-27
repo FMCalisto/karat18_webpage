@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e("#slider_lite").swiperight(function(){e("#slider_lite").carousel("prev")});e("#slider_lite").swipeleft(function(){e("#slider_lite").carousel("next")});e("#slider").swiperight(function(){e("#slider").carousel("prev")});e("#slider").swipeleft(function(){e("#slider").carousel("next")})})

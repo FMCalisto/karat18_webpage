@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blox Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-19 10:07:13 UTC\n"
+"PO-Revision-Date: 2013-10-16 18:13+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
+"Language-Team: Italian, Italy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../../404.php
+msgid "Oops! That page cannot be found."
+msgstr "Oops! Quella pagina non può essere trovata."
+
+#: ../../404.php
+msgid ""
+"It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr ""
+"Sembra che nulla è stato trovato in questa posizione. Forse provare a "
+"cercarlo?"
+
+#: ../../archive.php
+msgid "Category Archives: %s"
+msgstr "Archivi categoria: %s"
+
+#: ../../archive.php
+msgid "Tag Archives: %s"
+msgstr "Archivi Tag: %s"
+
+#: ../../archive.php
+msgid "Author Archives: %s"
+msgstr "Author Archives: %s"
+
+#: ../../archive.php
+msgid "Daily Archives: %s"
+msgstr "Archivio giornaliero: %s"
+
+#: ../../archive.php
+msgid "Monthly Archives: %s"
+msgstr "Archivio mensile: %s"
+
+#: ../../archive.php
+msgid "Yearly Archives: %s"
+msgstr "Archivi annuali: %s"
+
+#: ../../archive.php ../../footer.php ../../sidebar-left.php
+#: ../../sidebar-right.php ../../sidebar.php
+msgid "Archives"
+msgstr "Archivi"
+
+#: ../../comments.php
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: ../../comments.php
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: ../../comments.php
+msgid "Older Comments"
+msgstr "Anziani Commenti"
+
+#: ../../comments.php
+msgid "Newer Comments"
+msgstr "Commenti più recenti"
+
+#: ../../comments.php
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: ../../content.php
+msgid "Permalink to %s"
+msgstr "Permalink a %s"
+
+#: ../../content.php
+msgid "Continue reading"
+msgstr "Continua a leggere"
+
+#: ../../content.php ../../image.php
+msgid "Pages:"
+msgstr "Pagine"
+
+#: ../../content.php ../../image.php
+msgid "Edit"
+msgstr "mod"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Pages"
+msgstr "Pagine"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Categories"
+msgstr "Categorie"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Funziona con Wordpress."
+
+#: ../../functions.php
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../../functions.php
+msgid "(Edit)"
+msgstr "(Modifica)"
+
+#: ../../functions.php
+msgid "says:"
+msgstr "dice"
+
+#: ../../functions.php
+msgid "Your comment is awaiting moderation."
+msgstr "Il commento è in attesa di moderazione."
+
+#: ../../functions.php
+msgid "%1$s at %2$s"
+msgstr "%1$ s a %2$ s"
+
+#: ../../functions.php
+msgid "Blox Free Professional Responsive WordPress Theme"
+msgstr "CyberChimps Pro reattivo Starter WordPress Theme"
+
+#: ../../image.php
+msgid "Published"
+msgstr "Pubblicato"
+
+#: ../../image.php
+msgid "size"
+msgstr "Dim."
+
+#: ../../image.php
+msgid "in"
+msgstr "tra"
+
+#: ../../image.php
+msgid "Previous"
+msgstr "Precedente"
+
+#: ../../image.php
+msgid "Next"
+msgstr "Avanti"
+
+#: ../../image.php
+msgid "Post a comment"
+msgstr "Posta un commento"
+
+#: ../../image.php
+msgid "or leave a trackback"
+msgstr "o lascia un trackback"
+
+msgid "Trackback URL"
+msgstr "Trackback URL"
+
+#: ../../image.php
+msgid "Comments are closed, but you can leave a trackback: "
+msgstr "I commenti sono chiusi, ma puoi lasciare un trackback: "
+
+#: ../../image.php
+msgid "Trackbacks are closed, but you can %s"
+msgstr "Trackbacks sono chiusi, ma puoi %s"
+
+#: ../../image.php
+msgid "post a comment"
+msgstr "Posta un commento"
+
+#: ../../image.php
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Sia i commenti e trackback sono attualmente chiusi."
+
+#: ../../no-results.php
+msgid "Nothing Found"
+msgstr "Trovato nulla"
+
+#: ../../no-results.php
+msgid "Ready to publish your first post?"
+msgstr "Pronto a pubblicare il tuo primo post?"
+
+#: ../../no-results.php
+msgid "Get started here"
+msgstr "Inizia qui"
+
+#: ../../no-results.php
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Spiacente, ma nulla corrisponde ai tuoi termini di ricerca. Riprova con "
+"alcune parole chiave diverse."
+
+#: ../../no-results.php
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sembra che non riusciamo a trovare ciò che stai cercando. Forse la ricerca "
+"può aiutare."
+
+#: ../../search.php
+msgid "Search Results for: %s"
+msgstr "Risultati ricerca per: %s"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Subscribe"
+msgstr "Abbonati"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Entries (RSS)"
+msgstr "RSS"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Comments (RSS)"
+msgstr "Commenti (RSS)"

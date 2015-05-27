@@ -1,0 +1,1278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CyberChimps Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-13 17:08:33 UTC\n"
+"PO-Revision-Date: 2014-08-22 08:07:21 UTC\n"
+"Last-Translator: Web Translate It <support@webtranslateit.com>\n"
+"Language-Team: Slovenian, Slovenia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WebTranslateIt.com\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+
+#: ../../functions.php
+msgid "Posted on %s"
+msgstr "Objavljeno na %s"
+
+#: ../../functions.php
+msgid "View all posts by %s"
+msgstr "Poglej objave od %s"
+
+#: ../../functions.php
+msgid "by %s"
+msgstr "%s"
+
+#: ../../functions.php
+msgid "Posted in %s"
+msgstr "Objavljeno v %s"
+
+#: ../../functions.php
+msgid "Tags: %s"
+msgstr "Tags: %s"
+
+#: ../../functions.php
+#: ../../functions.php
+msgid "Leave a comment"
+msgstr "Pustite komentar"
+
+#: ../../functions.php
+msgid "1 Comment"
+msgstr "1 mnenje"
+
+#: ../../functions.php
+#: ../../options/options-core.php
+msgid "Comments"
+msgstr "Opombe"
+
+#: ../../functions.php
+msgid "Permalink to %s"
+msgstr "Permalink: %s"
+
+#: ../../functions.php
+msgid "Category Archives: %s"
+msgstr "Category Archives: %s"
+
+#: ../../functions.php
+msgid "Tag Archives: %s"
+msgstr "Tag Archives: %s"
+
+#: ../../functions.php
+msgid "Author Archives"
+msgstr "Avtor Archives"
+
+#: ../../functions.php
+msgid "Daily Archives: %s"
+msgstr "Dnevni arhiv: %s"
+
+#: ../../functions.php
+msgid "Monthly Archives: %s"
+msgstr "Mesečni arhiv: %s"
+
+#: ../../functions.php
+msgid "Yearly Archives: %s"
+msgstr "Letni arhiv: %s"
+
+#: ../../functions.php
+msgid "Shop"
+msgstr "Shop"
+
+#: ../../functions.php
+msgid "Archives"
+msgstr "Arhivi"
+
+#: ../../functions.php
+msgid "Search for &quot; %s &quot;"
+msgstr "Iskanje za \"%s\""
+
+#: ../../functions.php
+msgid "Not Found"
+msgstr "Ni mogoče najti"
+
+#: ../../functions.php
+msgid "Page %s"
+msgstr "Stran %s"
+
+#: ../../functions.php
+#: ../../functions.php
+msgid "Read More..."
+msgstr "Preberite več..."
+
+#: ../../functions.php
+#: ../../options/options-init.php
+msgid "Instructions"
+msgstr "Navodila"
+
+#: ../../functions.php
+#: ../../options/options-init.php
+msgid "Support"
+msgstr "Podpora"
+
+#: ../../functions.php
+msgid "Upgrade to %1$s"
+msgstr "Nadgradnjo %1$ s"
+
+#: ../../functions.php
+msgid "For even more amazing new features, upgrade to %1$s which includes a slider with customizable features, an image carousel, widgetized boxes, a callout section, expanded typography (including Google Fonts), additional color skins, and many more powerful new features. Visit %2$s to learn more!"
+msgstr "Za še bolj neverjetno nove funkcije, nadgradite %1$ s, ki vključuje drsnik s customizable zunanja oblika, podoba vrtiljak, widgetized škatle, oblaček oddelek, razširjeni Tipografija (vključno z Google pisave), dodatne barve kože in veliko več zmogljive nove funkcije. Obiščite %2$ s, če želite izvedeti več!"
+
+#: ../../functions.php
+msgid "Welcome to %1$s! Learn more now about upgrading to %2$s today."
+msgstr "Dobrodošli na %1$ s! Več o tem zdaj približno nadgradnjo na %2$ s danes."
+
+#: ../../functions.php
+#: ../../options/options-init.php
+msgid "Options"
+msgstr "Možnosti"
+
+#: ../../functions.php
+msgid "Add Ons"
+msgstr "Dodatke"
+
+#: ../../functions.php
+msgid "The Events Calendar"
+msgstr "Koledar dogodkov"
+
+#: ../../functions.php
+#: ../../functions.php
+msgid "Digital Downloads"
+msgstr "Digitalni prenosi"
+
+#: ../../functions.php
+msgid "Events"
+msgstr "Dogodki"
+
+#: ../../functions.php
+msgid "Events Plugin Options"
+msgstr "Dogodki Plugin možnosti"
+
+#: ../../functions.php
+msgid "Please activate The Events Calendar plugin"
+msgstr "Aktivirajte plugin The koledar dogodkov"
+
+#: ../../functions.php
+msgid "Install Events Calendar Plugin"
+msgstr "Namestite Plugin koledar dogodkov"
+
+#: ../../functions.php
+msgid "Digital Downloads Settings"
+msgstr "Prsten Downloads nastavitve"
+
+#: ../../functions.php
+msgid "Please activate Easy Digital Downloads plugin"
+msgstr "Aktivirajte enostavno prsten Downloads plugin"
+
+#: ../../functions.php
+msgid "Install Easy Digital Downloads Plugin"
+msgstr "Namestite Plugin enostavno prsten Downloads"
+
+#: ../../hooks/blog-hooks.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/meta-box-class/meta-box.php
+msgid "Slider Lite"
+msgstr "Drsnik Lite"
+
+#: ../../hooks/blog-hooks.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/meta-box-class/meta-box.php
+msgid "Boxes"
+msgstr "Škatle"
+
+#: ../../hooks/blog-hooks.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Page"
+msgstr "Post stran"
+
+#: ../../hooks/blog-hooks.php
+msgid "Our Blog"
+msgstr "Naše Blog"
+
+#: ../../hooks/header-hooks.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Logo + Icons"
+msgstr "Logo + ikone"
+
+#: ../../inc/cc-custom-background.php
+msgid "Or choose one of CyberChimps background images"
+msgstr "Ali izberite eno od slik za ozadje CyberChimps"
+
+#: ../../init.php
+msgid "Primary Menu"
+msgstr "Glavni meni"
+
+#: ../../init.php
+msgid "Sidebar Left"
+msgstr "Stransko levo"
+
+#: ../../init.php
+msgid "Sidebar Right"
+msgstr "Stransko desno"
+
+#: ../../init.php
+#: ../../options/options-core.php
+msgid "Footer Widgets"
+msgstr "Noga pripomočki"
+
+#: ../../options/options-core.php
+#: ../../options/meta-box-class/meta-box.php
+msgid "Select Page Layout"
+msgstr "Izberite postavitev strani"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Page Title"
+msgstr "Naslov strani"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Page Elements"
+msgstr "Elemente strani"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Page"
+msgstr "Stran"
+
+#: ../../options/options-core.php
+#: ../../options/meta-box-class/meta-box.php
+msgid "Portfolio Lite"
+msgstr "Portfelj Lite"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Twitter Bar"
+msgstr "Twitter Bar"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Need Help?"
+msgstr "Potrebujete pomoč?"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Visit the %s page options guide"
+msgstr "%S strani možnosti priročnik"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Page Options"
+msgstr "Možnosti strani"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Slider Image"
+msgstr "Drsnik sliko"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Slider Caption"
+msgstr "Drsnik napis"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Custom Slide Link"
+msgstr "Povezava diapozitivov po meri"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/meta-box-class/meta-box.php
+msgid "Title"
+msgstr "Naslov"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Caption"
+msgstr "Napis"
+
+#: ../../options/meta-box-class/meta-box.php
+msgid "Custom Feature Slides"
+msgstr "Meri funkcija diapozitivov"
+
+#: ../../options/meta-box-class/my-meta-box-class.php
+#: ../../options/meta-box-class/my-meta-box-class.php
+msgid "Remove"
+msgstr "Odstrani"
+
+#: ../../options/meta-box-class/my-meta-box-class.php
+msgid "Add"
+msgstr "Dodaj"
+
+#: ../../options/meta-box-class/my-meta-box-class.php
+#: ../../options/meta-box-class/my-meta-box-class.php
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr "Žal, vi vekanje upload to vrsto datoteke za to polje."
+
+#: ../../options/options-medialibrary-uploader.php
+#: ../../options/meta-box-class/my-meta-box-class.php
+msgid "Upload"
+msgstr "Naloži"
+
+#: ../../options/meta-box-class/my-meta-box-class.php
+msgid "or enter URL"
+msgstr "ali vnesite URL"
+
+#: ../../options/options-core.php
+msgid "Help"
+msgstr "Pomoč"
+
+#: ../../options/options-core.php
+msgid "Design"
+msgstr "Oblikovanje"
+
+#: ../../options/options-core.php
+msgid "Header"
+msgstr "Glava"
+
+#: ../../options/options-core.php
+msgid "Blog"
+msgstr "Blog"
+
+#: ../../options/options-core.php
+msgid "Templates"
+msgstr "Predloge"
+
+#: ../../options/options-core.php
+msgid "Footer"
+msgstr "Noga"
+
+#: ../../options/options-core.php
+msgid "Layout Options"
+msgstr "Možnosti postavitve"
+
+#: ../../options/options-core.php
+msgid "Custom Colors"
+msgstr "Mešanje barv"
+
+#: ../../options/options-core.php
+msgid "Typography"
+msgstr "Tipografija"
+
+#: ../../options/options-core.php
+msgid "Header Drag &#38; Drop"
+msgstr "Povlecite glavo & spusti"
+
+#: ../../options/options-core.php
+msgid "Header Options"
+msgstr "Glava možnosti"
+
+#: ../../options/options-core.php
+msgid "Social Icons"
+msgstr "Social ikone"
+
+#: ../../options/options-core.php
+msgid "Drag & Drop"
+msgstr "Upora & padec"
+
+#: ../../options/options-core.php
+msgid "Blog Options"
+msgstr "Blog možnosti"
+
+#: ../../options/options-core.php
+msgid "Blog Slider Lite"
+msgstr "Blog drsnik Lite"
+
+#: ../../options/options-core.php
+msgid "Portfolio Lite Options"
+msgstr "Portfelj Lite možnosti"
+
+#: ../../options/options-core.php
+msgid "Boxes Lite"
+msgstr "Škatle Lite"
+
+#: ../../options/options-core.php
+msgid "Blog Slider"
+msgstr "Blog drsnik"
+
+#: ../../options/options-core.php
+msgid "Callout Options"
+msgstr "Oblaček oddelek"
+
+#: ../../options/options-core.php
+msgid "HTML Box Options"
+msgstr "HTML polje"
+
+#: ../../options/options-core.php
+msgid "Carousel Options"
+msgstr "Priporočeni Post vrtiljak možnosti"
+
+#: ../../options/options-core.php
+msgid "Portfolio Pro Options"
+msgstr "Portfelj Pro možnosti"
+
+#: ../../options/options-core.php
+msgid "Recent Posts Options"
+msgstr "Zadnje objave"
+
+#: ../../options/options-core.php
+msgid "Boxes Options"
+msgstr "Možnosti banner"
+
+#: ../../options/options-core.php
+msgid "Single Post"
+msgstr "Eno mesto"
+
+#: ../../options/options-core.php
+msgid "Archive"
+msgstr "Arhiv"
+
+#: ../../options/options-core.php
+msgid "Search"
+msgstr "išči"
+
+#: ../../options/options-core.php
+msgid "Footer Options"
+msgstr "Noga možnosti"
+
+#: ../../options/options-core.php
+msgid "Author"
+msgstr "Avtor"
+
+#: ../../options/options-core.php
+msgid "Categories"
+msgstr "Kategorije"
+
+#: ../../options/options-core.php
+msgid "Date"
+msgstr "Datum"
+
+#: ../../options/options-core.php
+msgid "Tags"
+msgstr "Tags"
+
+#: ../../options/options-core.php
+msgid "CyberChimps Help"
+msgstr "CyberChimps pomoč"
+
+#: ../../options/options-core.php
+msgid "Responsive Design"
+msgstr "Odziven Design"
+
+#: ../../options/options-core.php
+msgid "Responsive Videos"
+msgstr "Odziven Videos"
+
+#: ../../options/options-core.php
+msgid "Gallery Lightbox"
+msgstr "Galerije Lightbox"
+
+#: ../../options/options-core.php
+msgid "Wide Sidebar"
+msgstr "Širok Sidebar"
+
+#: ../../options/options-core.php
+msgid "Only works on layouts with 1 sidebar"
+msgstr "Deluje samo na tipkovnicah z 1 stransko"
+
+#: ../../options/options-core.php
+#: ../../options/options-customizer.php
+msgid "Max Width"
+msgstr "Max širina"
+
+#: ../../options/options-core.php
+msgid "enter the width of your site in pixels"
+msgstr "Vnesite širino vaše spletne strani v slikovnih pikah"
+
+#: ../../options/options-core.php
+msgid "Select a Skin Color"
+msgstr "Izberite barvo kože"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-customizer.php
+msgid "Text Color"
+msgstr "Barva besedila"
+
+#: ../../options/options-core.php
+msgid "Select text color"
+msgstr "Izberite barvo besedila"
+
+#: ../../options/options-core.php
+#: ../../options/options-customizer.php
+msgid "Link Color"
+msgstr "Povezava barve"
+
+#: ../../options/options-core.php
+msgid "Select link color"
+msgstr "Izberite povezavo barve"
+
+#: ../../options/options-core.php
+#: ../../options/options-customizer.php
+msgid "Link Hover Color"
+msgstr "Barvo za lebdenje link"
+
+#: ../../options/options-core.php
+msgid "Select link hover color"
+msgstr "Izberite barvo za lebdenje link"
+
+#: ../../options/options-core.php
+msgid "Typography Options"
+msgstr "Tipografske možnosti"
+
+#: ../../options/options-core.php
+#: ../../options/options-customizer.php
+msgid "Enter Google font"
+msgstr "Vnesite Google pisave"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Google font names are case sensitive"
+msgstr "Google imena pisav so male črke"
+
+#: ../../options/options-core.php
+msgid "Demo Text"
+msgstr "Demo besedilo"
+
+#: ../../options/options-core.php
+#: ../../options/options-customizer.php
+msgid "Font Family for headings"
+msgstr "Družina pisave za naslove"
+
+#: ../../options/options-core.php
+#: ../../options/options-customizer.php
+msgid "Google font for headings"
+msgstr "Google pisave za naslove"
+
+#: ../../options/options-core.php
+msgid "Header Drag/Drop"
+msgstr "Glava povleci in spusti"
+
+#: ../../options/options-core.php
+msgid "Logo + Search"
+msgstr "Logo + iskanje"
+
+#: ../../options/options-core.php
+msgid "Logo"
+msgstr "Logo"
+
+#: ../../options/options-core.php
+msgid "Custom Logo URL"
+msgstr "Custom Logo URL"
+
+#: ../../options/options-core.php
+msgid "URL"
+msgstr "URL"
+
+#: ../../options/options-core.php
+msgid "Enter URL"
+msgstr "Vnesite URL"
+
+#: ../../options/options-core.php
+msgid "Custom Logo"
+msgstr "Logotip po meri"
+
+#: ../../options/options-core.php
+msgid "Logo Image"
+msgstr "Logo Image"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Enter URL or upload file"
+msgstr "Vnesite URL ali upload pila"
+
+#: ../../options/options-core.php
+msgid "Custom Favicon"
+msgstr "Custom Favicon"
+
+#: ../../options/options-core.php
+msgid "Favicon URL"
+msgstr "Favicon URL"
+
+#: ../../options/options-core.php
+msgid "Custom Apple touch icon"
+msgstr "Meri jabolko dotik ikono"
+
+#: ../../options/options-core.php
+msgid "Apple Touch URL"
+msgstr "Jabolko dotik URL"
+
+#: ../../options/options-core.php
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: ../../options/options-core.php
+msgid "Copy and paste your Google Analytics code here"
+msgstr "Kopirajte in prilepite kodo Google Analytics"
+
+#: ../../options/options-core.php
+msgid "Searchbar"
+msgstr "Searchbar"
+
+#: ../../options/options-core.php
+msgid "Header Scripts"
+msgstr "Glava skripte"
+
+#: ../../options/options-core.php
+msgid "Please add script tags"
+msgstr "Dodajte skriptne oznake"
+
+#: ../../options/options-core.php
+msgid "Choose your icon style"
+msgstr "Izberite ikono slog"
+
+#: ../../options/options-core.php
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../options/options-core.php
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: ../../options/options-core.php
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../options/options-core.php
+msgid "Twitter URL"
+msgstr "Cvrkutati URL"
+
+#: ../../options/options-core.php
+msgid "Google+"
+msgstr "Google +"
+
+#: ../../options/options-core.php
+msgid "Google+ URL"
+msgstr "Google + URL"
+
+#: ../../options/options-core.php
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../../options/options-core.php
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: ../../options/options-core.php
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../../options/options-core.php
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: ../../options/options-core.php
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../../options/options-core.php
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: ../../options/options-core.php
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../../options/options-core.php
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: ../../options/options-core.php
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: ../../options/options-core.php
+msgid "Google Maps URL"
+msgstr "Google Maps URL"
+
+#: ../../options/options-core.php
+msgid "Email"
+msgstr "E-pošta"
+
+#: ../../options/options-core.php
+msgid "Email Address"
+msgstr "E-pošta"
+
+#: ../../options/options-core.php
+msgid "RSS"
+msgstr "RSS"
+
+#: ../../options/options-core.php
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../../options/options-core.php
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../../options/options-core.php
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: ../../options/options-core.php
+msgid "Drag & Drop Blog Elements"
+msgstr "Upora & spusti Blog elementov"
+
+#: ../../options/options-core.php
+msgid "Blog Title"
+msgstr "Blog naslov"
+
+#: ../../options/options-core.php
+msgid "Blog Title Text"
+msgstr "Blog naslov besedila"
+
+#: ../../options/options-core.php
+msgid "Post Formats Icons"
+msgstr "Post oblikuje ikone"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Excerpts"
+msgstr "Po odlomkih"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Read More Text"
+msgstr "Preberite več besedila"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Excerpt Length"
+msgstr "Odlomek dolžina"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Featured Images"
+msgstr "Pokaže slik"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Byline Author"
+msgstr "Post Avtor Podpis avtorja"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Byline Categories"
+msgstr "Podpis avtorja post kategorije"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Byline Date"
+msgstr "Datum Podpis avtorja post"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Byline Comments"
+msgstr "Komentar Podpis avtorja"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Byline Tags"
+msgstr "Post Tags Podpis avtorja"
+
+#: ../../options/options-core.php
+msgid "Boxes Upgrade"
+msgstr "Nadgradnja škatle"
+
+#: ../../options/options-core.php
+msgid "Boxes Lite limits you to a total of 3 boxes throughout your whole site. Upgrade to %1$s to be able to create as many boxes as you like. Categorize them and display each category on a different page."
+msgstr "Škatle Lite vam omejuje na skupno 3 škatle skozi celega mesta. Nadgradnja %1$ s biti sposobni ustvariti toliko polj, kot želite. Jih kategorizirati in prikazati vsako kategorijo na drugo stran."
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Pro"
+msgstr "Pro"
+
+#: ../../options/options-core.php
+msgid "First Box Image"
+msgstr "Prvo polje slike"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Link URL"
+msgstr "Člen URL"
+
+#: ../../options/options-core.php
+msgid "First Box Text"
+msgstr "Prvo polje besedilo"
+
+#: ../../options/options-core.php
+msgid "Second Box Image"
+msgstr "Drugo polje slike"
+
+#: ../../options/options-core.php
+msgid "Second Box Text"
+msgstr "Drugo polje besedilo"
+
+#: ../../options/options-core.php
+msgid "Third Box Image"
+msgstr "Tretje polje slike"
+
+#: ../../options/options-core.php
+msgid "Third Box Text"
+msgstr "Tretje polje besedilo"
+
+#: ../../options/options-core.php
+msgid "Portfolio Upgrade"
+msgstr "Nadgradnja portfelja"
+
+#: ../../options/options-core.php
+msgid "Portfolio Lite limits you to a total of 4 items throughout your whole site. Upgrade to %1$s to be able to create as many portfolio items as you like. Categorize them and display each category on a different page."
+msgstr "Portfelj Lite vam omejuje na skupno 4 elemente, skozi celotno mesto. Nadgradnja %1$ s lahko ustvarite toliko portfelja elemente, kot želite. Jih kategorizirati in prikazati vsako kategorijo na drugo stran."
+
+#: ../../options/options-core.php
+msgid "First Portfolio Image"
+msgstr "Prva slika portfelja"
+
+#: ../../options/options-core.php
+msgid "First Portfolio Image Caption"
+msgstr "Prvi portfelja sliko napis"
+
+#: ../../options/options-core.php
+msgid "First Porfolio Link"
+msgstr "Prvi Link Porfolio"
+
+#: ../../options/options-core.php
+msgid "Second Portfolio Image"
+msgstr "Drugo portfelj slike"
+
+#: ../../options/options-core.php
+msgid "Second Portfolio Image Caption"
+msgstr "Drugi portfelja sliko napis"
+
+#: ../../options/options-core.php
+msgid "Second Porfolio Link"
+msgstr "Drugi Porfolio Link"
+
+#: ../../options/options-core.php
+msgid "Third Portfolio Image"
+msgstr "Tretja slika portfelja"
+
+#: ../../options/options-core.php
+msgid "Third Portfolio Image Caption"
+msgstr "Tretji portfelja sliko napis"
+
+#: ../../options/options-core.php
+msgid "Third Porfolio Link"
+msgstr "Tretji Link Porfolio"
+
+#: ../../options/options-core.php
+msgid "Fourth Portfolio Image"
+msgstr "Četrti portfelj slike"
+
+#: ../../options/options-core.php
+msgid "Fourth Portfolio Image Caption"
+msgstr "Četrti portfelja sliko napis"
+
+#: ../../options/options-core.php
+msgid "Fourth Porfolio Link"
+msgstr "Četrti Porfolio Link"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Portfolio Title"
+msgstr "Portfelj Element"
+
+#: ../../options/options-core.php
+msgid "Slider Upgrade"
+msgstr "Drsnik nadgradnjo"
+
+#: ../../options/options-core.php
+msgid "Slider Lite limits you to a total of 3 images throughout your whole site. Upgrade to %1$s to be able to create more images. Categorize them and display each category on a different page."
+msgstr "Drsnik Lite vam omejuje na skupno 3 slike skozi celega mesta. Nadgradnja %1$ s da bi lahko ustvarili več slik. Jih kategorizirati in prikazati vsako kategorijo na drugo stran."
+
+#: ../../options/options-core.php
+msgid "Slider Image 1"
+msgstr "Drsnik slika 1"
+
+#: ../../options/options-core.php
+msgid "Slide 1 URL"
+msgstr "Diapozitiv 1 URL"
+
+#: ../../options/options-core.php
+msgid "Slider Image 2"
+msgstr "Drsnik slika 2"
+
+#: ../../options/options-core.php
+msgid "Slide 2 URL"
+msgstr "Diapozitiv 2 URL"
+
+#: ../../options/options-core.php
+msgid "Slider Image 3"
+msgstr "Drsnik slike 3"
+
+#: ../../options/options-core.php
+msgid "Slide 3 URL"
+msgstr "Diapozitiv 3 URL"
+
+#: ../../options/options-core.php
+msgid "Images per Row"
+msgstr "Slike"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Portfolio Category"
+msgstr "Portfelj Kategorija"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "You need to create a Category"
+msgstr "Vi potreba tvoriti a Kategorija"
+
+#: ../../options/options-core.php
+msgid "Slider Size"
+msgstr "Drsnik sliko"
+
+#: ../../options/options-core.php
+msgid "Full"
+msgstr "Poln"
+
+#: ../../options/options-core.php
+msgid "Half"
+msgstr "Polovica"
+
+#: ../../options/options-core.php
+msgid "Slider Type"
+msgstr "Drsnik sliko"
+
+#: ../../options/options-core.php
+msgid "Posts"
+msgstr "Objav"
+
+#: ../../options/options-core.php
+msgid "Custom"
+msgstr "Lastne"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Categories"
+msgstr "Polja kategorije"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Custom Categories"
+msgstr "Vrtiljak kategorije"
+
+#: ../../options/options-core.php
+msgid "Number of Featured Blog Posts"
+msgstr "Število Priporočeni Blog Posts"
+
+#: ../../options/options-core.php
+msgid "Slider Height"
+msgstr "Drsnik sliko"
+
+#: ../../options/options-core.php
+msgid "Slider Speed "
+msgstr "Drsnik sliko"
+
+#: ../../options/options-core.php
+msgid "Slider Arrows"
+msgstr "Diapozitivi"
+
+#: ../../options/options-core.php
+msgid "Callout Title"
+msgstr "Naslov izdelka"
+
+#: ../../options/options-core.php
+msgid "%1$s's Call Out Element"
+msgstr "%1$ stakne klic ven Element"
+
+#: ../../options/options-core.php
+msgid "Callout Text"
+msgstr "Oblaček oddelek"
+
+#: ../../options/options-core.php
+msgid "Use %1$s's Call Out section on any page where you want to deliver an important message to your customer or client."
+msgstr "Uporabite %1$ stakne klic iz oddelka na kateri koli strani, kamor želite dostaviti pomembno sporočilo za vašo stranko ali stranke."
+
+#: ../../options/options-core.php
+msgid "Callout Button"
+msgstr "Oblaček oddelek"
+
+#: ../../options/options-core.php
+msgid "Callout Button Text"
+msgstr "Oblaček oddelek"
+
+#: ../../options/options-core.php
+msgid "Click Here"
+msgstr "kliknite sem"
+
+#: ../../options/options-core.php
+msgid "Callout Button URL"
+msgstr "Oblaček oddelek"
+
+#: ../../options/options-core.php
+msgid "Custom Callout Options"
+msgstr "Možnosti diapozitivov po meri"
+
+#: ../../options/options-core.php
+msgid "Button"
+msgstr "Gumb"
+
+#: ../../options/options-core.php
+msgid "Background Color"
+msgstr "Barva ozadja"
+
+#: ../../options/options-core.php
+msgid "Title Color"
+msgstr "Naslovom barva"
+
+#: ../../options/options-core.php
+msgid "Button Color"
+msgstr "Gumb barva"
+
+#: ../../options/options-core.php
+msgid "Button Text Color"
+msgstr "Gumb barva besedila"
+
+#: ../../options/options-core.php
+msgid "HTML Box"
+msgstr "HTML polje"
+
+#: ../../options/options-core.php
+msgid "Enter your custom HTML code here"
+msgstr "Vnesite svojo meri HTML kodo tukaj"
+
+#: ../../options/options-core.php
+msgid "Custom Title"
+msgstr "Naslov po meri"
+
+#: ../../options/options-core.php
+msgid "Images"
+msgstr "Slike"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Select a Category"
+msgstr "Izberite kategorijo"
+
+#: ../../options/options-core.php
+msgid "Number of boxes per row"
+msgstr "Število polj na vrstico"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Sidebar Options"
+msgstr "Sidebar možnosti"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Images for layout."
+msgstr "Slike za postavitev."
+
+#: ../../options/options-core.php
+msgid "Post title"
+msgstr "Po naslovu"
+
+#: ../../options/options-core.php
+#: ../../options/options-core.php
+msgid "Post Format Icons"
+msgstr "Post Format ikone"
+
+#: ../../options/options-core.php
+msgid "Custom 404 Title"
+msgstr "Naslov po meri 404"
+
+#: ../../options/options-core.php
+msgid "Custom 404 Content"
+msgstr "Vsebine po meri 404"
+
+#: ../../options/options-core.php
+msgid "Footer Copyright Text"
+msgstr "Copyright besedilo noge"
+
+#: ../../options/options-customizer.php
+msgid "Customize"
+msgstr "Prilagodi"
+
+#: ../../options/options-customizer.php
+msgid "make sure you have removed the image above before selecting one of these"
+msgstr "Poskrbite, da boste odstranili slike zgoraj, preden izberete eno od teh"
+
+#: ../../options/options-customizer.php
+msgid "Skin Color"
+msgstr "Barvo kože"
+
+#: ../../options/options-customizer.php
+msgid "Typography Size"
+msgstr "Velikost tipografije"
+
+#: ../../options/options-customizer.php
+msgid "Typography Style"
+msgstr "Tipografija slog"
+
+#: ../../options/options-customizer.php
+msgid "Typography Face"
+msgstr "Tipografija obraz"
+
+#: ../../options/options-customizer.php
+msgid "Background Image"
+msgstr "Sliko za ozadje"
+
+#: ../../options/options-init.php
+msgid "Theme Options Page"
+msgstr "Tema možnosti stran"
+
+#: ../../options/options-init.php
+#: ../../options/options-init.php
+msgid "Theme Options"
+msgstr "Možnosti teme"
+
+#: ../../options/options-init.php
+msgid "Buy Themes"
+msgstr "Nakup teme"
+
+#: ../../options/options-init.php
+#: ../../options/options-init.php
+#: ../../options/options-init.php
+msgid "Save Options"
+msgstr "Shrani možnosti"
+
+#: ../../options/options-init.php
+#: ../../options/options-init.php
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Če želite ponastaviti, kliknite v redu. Vsako temo nastavitve bodo izgubljeni!"
+
+#: ../../options/options-init.php
+#: ../../options/options-init.php
+msgid "Restore Defaults"
+msgstr "Obnovi privzeto"
+
+#: ../../options/options-init.php
+#: ../../options/options-init.php
+msgid "CyberChimps WordPress Themes"
+msgstr "CyberChimps Wordpress teme"
+
+#: ../../options/options-init.php
+msgid "Default Field"
+msgstr "Privzeta polja"
+
+#: ../../options/options-init.php
+#: ../../options/options-init.php
+msgid "Options Imported"
+msgstr "Možnosti uvoženih"
+
+#: ../../options/options-init.php
+#: ../../options/options-init.php
+msgid "Invalid Data for Import"
+msgstr "Neveljavni podatki za uvoz"
+
+#: ../../options/options-init.php
+msgid "Default options restored."
+msgstr "Privzete možnosti obnoviti."
+
+#: ../../options/options-init.php
+msgid "Options saved."
+msgstr "Možnosti shrani."
+
+#: ../../options/options-medialibrary-uploader.php
+msgid "Theme Options Media"
+msgstr "Tema možnosti medijev"
+
+#: ../../options/options-medialibrary-uploader.php
+msgid "View File"
+msgstr "Prikaži datoteko"
+
+#: ../../options/options-medialibrary-uploader.php
+msgid "Gallery"
+msgstr "Galerija"
+
+#: ../../options/options-medialibrary-uploader.php
+msgid "Previously Uploaded"
+msgstr "Predhodno naložili"
+
+#: ../../options/options-sanitize.php
+msgid "No Repeat"
+msgstr "Brez ponavljanja"
+
+#: ../../options/options-sanitize.php
+msgid "Repeat Horizontally"
+msgstr "Ponovite vodoravno"
+
+#: ../../options/options-sanitize.php
+msgid "Repeat Vertically"
+msgstr "Ponavljajo navpično"
+
+#: ../../options/options-sanitize.php
+msgid "Repeat All"
+msgstr "Ponovi vse"
+
+#: ../../options/options-sanitize.php
+msgid "Top Left"
+msgstr "Zgoraj levo"
+
+#: ../../options/options-sanitize.php
+msgid "Top Center"
+msgstr "Zgoraj na sredini"
+
+#: ../../options/options-sanitize.php
+msgid "Top Right"
+msgstr "Zgoraj desno"
+
+#: ../../options/options-sanitize.php
+msgid "Middle Left"
+msgstr "Sredina levo"
+
+#: ../../options/options-sanitize.php
+msgid "Middle Center"
+msgstr "Sredini"
+
+#: ../../options/options-sanitize.php
+msgid "Middle Right"
+msgstr "Srednji pravilen"
+
+#: ../../options/options-sanitize.php
+msgid "Bottom Left"
+msgstr "Levo spodaj"
+
+#: ../../options/options-sanitize.php
+msgid "Bottom Center"
+msgstr "Dnu Center"
+
+#: ../../options/options-sanitize.php
+msgid "Bottom Right"
+msgstr "Spodaj desno"
+
+#: ../../options/options-sanitize.php
+msgid "Scroll Normally"
+msgstr "Pomaknite se običajno"
+
+#: ../../options/options-sanitize.php
+msgid "Fixed in Place"
+msgstr "V mestu"
+
+#: ../../options/options-sanitize.php
+msgid "Normal"
+msgstr "Navadno"
+
+#: ../../options/options-sanitize.php
+msgid "Italic"
+msgstr "Ležeče"
+
+#: ../../options/options-sanitize.php
+msgid "Bold"
+msgstr "Krepko"
+
+#: ../../options/options-sanitize.php
+msgid "Bold Italic"
+msgstr "Krepko ležeče"
+
+#: ../../options/theme-upsell.php
+msgid "Themes You Can Trust"
+msgstr "Teme, ki ji lahko zaupate"
+

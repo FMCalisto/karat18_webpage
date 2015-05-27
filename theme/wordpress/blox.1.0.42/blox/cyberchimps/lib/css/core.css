@@ -1,0 +1,360 @@
+/* Core Stylesheet
+----------------------------------------------- */
+
+/* === SOCIAL ICON FONT === */
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot?v=4.0.3');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Glyphicons Halflings";
+	src: url("../../lib/fonts/glyphicons-halflings-regular.eot");
+	src: url("../../lib/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../lib/fonts/glyphicons-halflings-regular.woff") format("woff"), url("../../lib/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../../lib/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Container Full Width that everything is wrapped in */
+.container-full-width {
+	width: 100%;
+}
+
+.container-full-width:before, .container-full-width:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
+.container-full-width:after {
+	clear: both;
+}
+
+/* Text meant only for screen readers */
+.assistive-text {
+	position: absolute !important; /* IE6, IE7 */
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* ie only */
+/* fix for ie 8 and less nav dropdown menu not showing*/
+.lte9 .nav-collapse.collapse {
+	overflow: visible;
+}
+
+/* CSS to make the video responsive starts */
+.flex-video {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 16px;
+	padding-bottom: 60.5%;
+	height: 0;
+}
+
+.flex-video iframe, .flex-video object, .flex-video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* CSS to make the video responsive ends */
+/* CSS for the site title, after removing the hgroup tag */
+.hgroup {
+	display: block;
+}
+
+/* === FOOTER === */
+
+@import url('http://fonts.googleapis.com/css?family=Bitter');
+
+#after_footer .cc-credit-logo {
+	float: left;
+}
+
+#after_footer .cc-credit-text {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #9b9c9b;
+	font-family: 'Bitter', serif;
+}
+
+#after_footer .cc-credit-text span {
+	color: #22699d;
+	font-weight: 200;
+}
+
+/* === SOCIAL ICON FONT === */
+
+#social {
+	float: right;
+}
+
+.symbol {
+	display: inline-block;
+	font-family: FontAwesome;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	-ms-text-rendering: optimizeLegibility;
+	-o-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+a.symbol {
+	float: left;
+	margin: 0 6px 10px 0;
+	width: 38px;
+	height: 38px;
+	border: 1px solid #333333;
+	border-radius: 4px;
+	background: #444444;
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #111111;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 1.5;
+	text-align: center;
+}
+
+a.symbol.twitterbird:before {
+	content: "\f099";
+}
+
+a.symbol.instagram:before {
+	content: "\f16d";
+}
+
+a.symbol.facebook:before {
+	content: "\f09a";
+}
+
+a.symbol.googleplus:before {
+	content: "\f0d5";
+}
+
+a.symbol.flickr:before {
+	content: "\f16e";
+}
+
+a.symbol.pinterest:before {
+	content: "\f0d2";
+}
+
+a.symbol.linkedin:before {
+	content: "\f0e1";
+}
+
+a.symbol.youtube:before {
+	content: "\f167";
+}
+
+a.symbol.map:before {
+	content: "\f041";
+}
+
+a.symbol.email:before {
+	content: "\f0e0";
+}
+
+a.symbol.rss:before {
+	content: "\f09e";
+}
+
+a.symbol:hover {
+	text-decoration: none;
+}
+
+.default-icons a.symbol {
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	background: #eeeeee;
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+	background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+	background: -o-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+	background: -ms-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+	background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+	color: #555555;
+	text-shadow: 1px 1px 0 #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=0);
+}
+
+.retina-icons a.symbol {
+	margin-right: 0;
+	border: none;
+	background: none;
+	color: #555555;
+	text-shadow: 2px 2px rgba(204, 204, 204, 0.5);
+	font-size: 3.5em;
+}
+
+.retina-icons a.symbol:hover {
+	background: #eeeeee;
+	color: #222222;
+}
+
+.legacy-icons a.symbol {
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	background: #eeeeee;
+	color: #ffffff;
+	text-shadow: 1px 1px rgba(85, 85, 85, 0.5);
+}
+
+.round-icons a.symbol {
+	border: 1px solid #cccccc;
+	border-radius: 50%;
+	background: #eeeeee;
+	color: #ffffff;
+	text-shadow: 1px 1px rgba(85, 85, 85, 0.5);
+}
+
+.round-icons a.symbol:hover,
+.legacy-icons a.symbol:hover {
+	opacity: .8;
+}
+
+.round-icons a.symbol.facebook,
+.legacy-icons a.symbol.facebook {
+	border: 1px solid #4d6595;
+	background: #556fa3;
+}
+
+.round-icons a.symbol.twitterbird,
+.legacy-icons a.symbol.twitterbird {
+	border: 1px solid #37bce9;
+	background: #4dc4ec;
+}
+
+.round-icons a.symbol.googleplus,
+.legacy-icons a.symbol.googleplus {
+	border: 1px solid #b43727;
+	background: #d34d3b;
+}
+
+.round-icons a.symbol.linkedin,
+.legacy-icons a.symbol.linkedin {
+	border: 1px solid #00659c;
+	background: #0072b1;
+}
+
+.round-icons a.symbol.youtube,
+.legacy-icons a.symbol.youtube {
+	border: 1px solid #9f271f;
+	background: #b42d24;
+}
+
+.round-icons a.symbol.map,
+.legacy-icons a.symbol.map {
+	border: 1px solid #74a82a;
+	background: #7fb72f;
+}
+
+.round-icons a.symbol.flickr,
+.legacy-icons a.symbol.flickr {
+	border: 1px solid #0756b7;
+	background: #0969dd;
+}
+
+.round-icons a.symbol.pinterest,
+.legacy-icons a.symbol.pinterest {
+	border: 1px solid #b81d1f;
+	background: #cd2123;
+}
+
+.round-icons a.symbol.email,
+.legacy-icons a.symbol.email {
+	border: 1px solid #3b65ab;
+	background: #4170bd;
+}
+
+.round-icons a.symbol.rss,
+.legacy-icons a.symbol.rss {
+	border: 1px solid #dc650e;
+	background: #f07013;
+}
+
+a.symbol:hover {
+	background: #cccccc;
+}
+
+/* FONT ICONS ===================*/
+
+.postformats .glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	margin-left: 10px;
+	color: #cccccc;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.9em;
+	font-family: 'Glyphicons Halflings';
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon:empty {
+	width: 1em;
+}
+
+.glyphicon-list-alt:before {
+	content: "\e032";
+}
+
+.glyphicon-volume-up:before {
+	content: "\e038";
+}
+
+.glyphicon-comment:before {
+	content: "\e111";
+}
+
+.glyphicon-file:before {
+	content: "\e022";
+}
+
+.glyphicon-film:before {
+	content: "\e009";
+}
+
+.glyphicon-picture:before {
+	content: "\e060";
+}
+
+.glyphicon-link:before {
+	content: "\e144";
+}
+
+.glyphicon-share:before {
+	content: "\e066";
+}
+
+.glyphicon-th:before {
+	content: "\e011";
+}
+
+.glyphicon-facetime-video:before {
+	content: "\e059";
+}
+
+.glyphicon-arrow-right:before {
+	content: "\e092";
+}
